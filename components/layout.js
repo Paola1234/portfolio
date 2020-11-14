@@ -23,6 +23,18 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <link
+            rel="preload"
+            href="/fonts/OpenSans-Bold.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/OpenSans-Light.ttf"
+            as="font"
+            crossOrigin=""
+          />
       </Head>
       <header className={styles.header}>
         {home ? (
