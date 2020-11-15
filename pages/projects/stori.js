@@ -1,3 +1,7 @@
+import Head from 'next/head'
+import Layout, { siteTitle } from '../components/layout'
+import utilStyles from '../styles/utils.module.css'
+
 export default function stori() {
     return (
       <Layout home>
