@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Paola Latino | Digital creator, UX Designer and Frontend Developer"
         />
         <meta
           property="og:image"
@@ -24,38 +24,38 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
         <link
-            rel="preload"
-            href="/fonts/OpenSans-Bold.ttf"
-            as="font"
-            crossOrigin=""
-          />
-          <link
-            rel="preload"
-            href="/fonts/OpenSans-Light.ttf"
-            as="font"
-            crossOrigin=""
-          />
+          rel="preload"
+          href="/fonts/OpenSans-Bold.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/OpenSans-Light.ttf"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <header className={styles.header}>
-      <div id="navbar">
+        <div id="navbar">
           <img
-          src="/images/name.png" className="nameMenu"/>
+            src="/images/name.png" className="nameMenu" />
           <a href="/projects">Projects</a>
           <a href="/aboutme">About me</a>
           <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
-      </div>
+        </div>
         {home ? (
           <>
           </>
         ) : (
-          <>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
+            <>
+              <h2 className={utilStyles.headingLg}>
+                <Link href="/">
+                  <a className={utilStyles.colorInherit}>{name}</a>
+                </Link>
+              </h2>
+            </>
+          )}
       </header>
       <main>{children}</main>
       {!home && (
