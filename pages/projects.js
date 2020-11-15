@@ -3,7 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 
-export default function Home() {
+export default function projects() {
   return (
     <Layout home>
       <Head>
