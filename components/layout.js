@@ -44,18 +44,16 @@ export default function Layout({ children, home }) {
           <a href="/aboutme">About me</a>
           <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
         </div>
-        {home ? (
-          <>
+        {home
+          ? null
+          : <>
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/">
+                <a className={utilStyles.colorInherit}>{name}</a>
+              </Link>
+            </h2>
           </>
-        ) : (
-            <>
-              <h2 className={utilStyles.headingLg}>
-                <Link href="/">
-                  <a className={utilStyles.colorInherit}>{name}</a>
-                </Link>
-              </h2>
-            </>
-          )}
+        }
       </header>
       <main>{children}</main>
       {!home && (
