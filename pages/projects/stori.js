@@ -1,4 +1,4 @@
-export default function projects() {
+export default function stori() {
     return (
       <Layout home>
         <Head>
