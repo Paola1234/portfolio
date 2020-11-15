@@ -13,7 +13,7 @@ export default function headerIndex() {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#" aria-label="Home">
                   <img className="h-8 w-auto sm:h-10" src="" alt="Logo">
-                </a>
+                <a/>
                 <div className="-mr-2 flex items-center md:hidden">
                   <button type="button" className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" id="main-menu" aria-label="Main menu" aria-haspopup="true">
                     <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -29,7 +29,7 @@ export default function headerIndex() {
             </div>
           </nav>
         </div>
-
+  
   
         <main className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
           <div className="sm:text-center lg:text-left">
@@ -58,8 +58,8 @@ export default function headerIndex() {
       </div>
     </div>
     <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="">
+      <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/public/images/foto-sin-fondo.png" alt="">
     </div>
   </div>
-  );
+  )
 }
