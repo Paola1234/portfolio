@@ -1,36 +1,6 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 18px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
 
 @font-face {
   font-family: "Open Sans";
@@ -45,4 +15,157 @@ img {
   font-style: light;
   font-weight: 300;
   font-display: swap;
+}
+/* Text properties */
+p,li{
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+/* Main titles fonts H1 H2 */
+h1,h2{
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+.span{
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.center-title{
+  text-align: center;
+  font-size: 32pt;
+  color: #443B96;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Link color */
+a {
+  color: #0070f3;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+/* Hover over links */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.nameMenu{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.storibckg{
+  padding: 3em;
+  background: rgb(44,213,196);
+  background: linear-gradient(0deg, rgba(44,213,196,1) 0%, rgba(0,103,127,1) 100%);
+  margin-bottom: 3em;
+}
+
+.white-center-text{
+  color: white;
+  text-align: center;
+}
+
+.purple-bold-text{
+  color: #443B96;
+
+}
+
+.center-text{
+  text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+  padding: 0;
+  margin:0;
+}
+
+.rowMedia{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 601px) {
+  .row {
+    display: flex;
+  }
+  .column_equal {
+    flex: 50%;
+  } 
+  .rowMedia {
+    display: flex;
+  } 
+}
+
+
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rowMedia {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column-equal {
+    width: 100%;
+  }
 }
