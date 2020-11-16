@@ -1,3 +1,4 @@
+
 import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -39,11 +40,12 @@ const Header = (home) =>
   <header className={styles.header}>
     <div id="navbar">
       <img
-        src="/images/name.png" className="nameMenu" />
-      <a href="/projects">Projects</a>
-      <a href="/aboutme">About me</a>
-      <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
-    </div>
+          src="/images/name.png" className="nameMenu"/>
+          <div className="flex justify-around">
+            <a href="/projects">Projects</a>
+            <a href="/aboutme">About me</a>
+            <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
+       </div>  
     {home
       ? null
       : <>
