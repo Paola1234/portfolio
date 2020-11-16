@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Layout from '../components/layout.js'
+import Layout from '../../components/layout.js'
 import utilStyles from '../styles/utils.module.css'
 
 export default function stori() {
     return (
-      <Layout home>
+      <Layout >
         <Head>
           <title>Stori project</title>
         </Head>

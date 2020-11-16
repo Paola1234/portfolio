@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout.js'
+import Layout, { siteTitle } from '../../components/layout.js'
 import utilStyles from '../styles/utils.module.css'
 
 
 export default function estereo() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Estereo Picnic</title>
       </Head>
