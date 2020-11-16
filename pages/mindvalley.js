@@ -14,7 +14,9 @@ export default function mindvalley() {
         </section>
         <section>
         <div>
-              <p>I felt motivated to apply because I've seen how your company culture can</p>
+              <p>I felt motivated to apply because I've seen how your company culture had help people in your team to be 
+                  their best version in their professional and personal life and for my next steps I've been investing on
+                me to achieve the same </p>
               <p>I really hope to hear from you soon</p>
           </div>
         </section>
