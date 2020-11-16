@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Layout from '../components/layout.js'
 import utilStyles from '../styles/utils.module.css'
 
 
 export default function projects() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>My projects</title>
       </Head>
@@ -34,6 +33,6 @@ export default function projects() {
             <p>Gamification</p>
         </div>
       </section>
-    </Layout>
+    </>
   )
 }
