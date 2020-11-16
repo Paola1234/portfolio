@@ -46,6 +46,7 @@ const Header = (home) =>
             <a href="/aboutme">About me</a>
             <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
        </div>  
+   </div> 
     {home
       ? null
       : <>
