@@ -69,6 +69,9 @@ a:hover {
 #navbar {
   overflow: hidden;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /* Navbar links */
@@ -85,6 +88,8 @@ a:hover {
 /* Page content */
 .content {
   padding: 16px;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -141,6 +146,8 @@ img {
   max-width: 50%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 601px) {

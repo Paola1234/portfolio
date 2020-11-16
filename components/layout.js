@@ -40,9 +40,11 @@ export default function Layout({ children, home }) {
       <div id="navbar">
           <img
           src="/images/name.png" className="nameMenu"/>
-          <a href="/projects">Projects</a>
-          <a href="/aboutme">About me</a>
-          <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
+          <div className="flex justify-around">
+            <a href="/projects">Projects</a>
+            <a href="/aboutme">About me</a>
+            <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
+          </div>          
       </div>
         {home ? (
           <>
@@ -57,7 +59,10 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
-      <main>{children}</main>
+      <main>
+        
+        {children}
+      </main>
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
