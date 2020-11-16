@@ -125,8 +125,6 @@ img {
 
 .img-small {
   max-width: 30%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .button {
@@ -151,8 +149,7 @@ img {
 
 .estereobckg{
   padding: 3em;
-  background: rgb(44,213,196);
-  background: linear-gradient(0deg, rgba(44,213,196,1) 0%, rgba(0,103,127,1) 100%);
+  background:#121A35;
   margin-bottom: 3em;
 }
 
@@ -201,6 +198,12 @@ img {
   .rowMedia {
     display: flex;
   } 
+  .column-right{
+    flex: 90%;
+  }
+  .column-left{
+    flex: 10%;
+  }
 }
 
 
@@ -215,5 +218,11 @@ img {
   }
   .column-equal {
     width: 100%;
+  }
+  .column-right{
+    flex: 100%;
+  }
+  .column-left{
+    flex: 100%;
   }
 }

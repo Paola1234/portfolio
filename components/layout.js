@@ -40,7 +40,7 @@ const Header = (home) =>
   <header className={styles.header}>
     <div id="navbar">
       <a href="/"><img 
-         src="/images/name.png" className="img-small"/></a> 
+         src="/images/name.png" className="img-small center-img"/></a> 
           <div className="flex justify-around">
             <a href="/projects">Projects</a>
             <a href="/aboutme">About me</a>
