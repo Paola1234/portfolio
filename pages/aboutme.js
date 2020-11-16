@@ -6,7 +6,7 @@ import utilStyles from '../styles/utils.module.css'
 export default function aboutme() {
 
     return (
-        <Layout home>
+        <Layout>
       <Head>
         <title>About me</title>
       </Head>
@@ -70,10 +70,11 @@ export default function aboutme() {
       <section>
             <h3 className="center-text">Contact me here</h3>
             <div className="rowMedia">
-            <img className="mediaIcons" src="/icons/socialMedia/behance.svg" alt=""/>
-            <img className="mediaIcons"src="/icons/socialMedia/linkedin.svg" alt=""/>
-            <img className="mediaIcons"src="/icons/socialMedia/medium.svg" alt=""/>
-            <img className="mediaIcons"src="/icons/socialMedia/email.svg" alt=""/>
+            <a href="https://www.behance.net/paola-latino" ><img className="mediaIcons" src="/icons/socialMedia/behance.svg" alt=""/></a>
+            <a href="https://www.linkedin.com/in/paola-latino/"><img className="mediaIcons"src="/icons/socialMedia/linkedin.svg" alt=""/></a>  
+            <a href="https://medium.com/@paolalat188"><img className="mediaIcons"src="/icons/socialMedia/medium.svg" alt=""/></a> 
+            <a href="https://github.com/Paola1234" ><img className="mediaIcons" src="/icons/socialMedia/github.svg" alt=""/></a>
+            <a href="mailto: paolalat188@gmail.com"><img className="mediaIcons"src="/icons/socialMedia/email.svg" alt=""/></a>
         </div>
       </section>
     </Layout>

@@ -39,8 +39,8 @@ const HeadElements = () =>
 const Header = (home) =>
   <header className={styles.header}>
     <div id="navbar">
-      <img 
-          src="/images/name.png" className="img-small"/>
+      <a href="/"><img 
+         src="/images/name.png" className="img-small"/></a> 
           <div className="flex justify-around">
             <a href="/projects">Projects</a>
             <a href="/aboutme">About me</a>
@@ -69,7 +69,7 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
            
       {!home && (
-        <div className={styles.backToHome}>
+        <div className={styles.backToHome }>
           <Link href="/">
             <a>← Back to home</a>
           </Link>

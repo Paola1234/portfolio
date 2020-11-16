@@ -116,6 +116,9 @@ a:hover {
 
 img {
   max-width: 100%;
+}
+
+.center-img{
   margin-left: auto;
   margin-right: auto;
 }
@@ -146,6 +149,20 @@ img {
   margin-bottom: 3em;
 }
 
+.estereobckg{
+  padding: 3em;
+  background: rgb(44,213,196);
+  background: linear-gradient(0deg, rgba(44,213,196,1) 0%, rgba(0,103,127,1) 100%);
+  margin-bottom: 3em;
+}
+
+.backpackbckg{
+  padding: 3em;
+  background: rgb(44,213,196);
+  background: linear-gradient(0deg, rgba(44,213,196,1) 0%, rgba(0,103,127,1) 100%);
+  margin-bottom: 3em;
+}
+
 .white-center-text{
   color: white;
   text-align: center;
@@ -167,7 +184,7 @@ img {
 }
 
 .rowMedia{
-  max-width: 50%;
+  max-width: 40%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
