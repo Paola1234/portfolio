@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout.js'
 import utilStyles from '../styles/utils.module.css'
 
 
-export default function Home() {
+export default function projects() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>My projects</title>
       </Head>
