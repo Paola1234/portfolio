@@ -34,8 +34,8 @@ const HeadElements = () =>
       crossOrigin=""
     />
   </Head>
-  
-const Header = () =>
+
+const Header = (home) =>
   <header className={styles.header}>
     <div id="navbar">
       <img
@@ -60,7 +60,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <HeadElements />
-      <Header />
+      <Header home={home} />
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
