@@ -45,19 +45,21 @@ const Header = (home) =>
             <a href="/projects">Projects</a>
             <a href="/aboutme">About me</a>
             <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
-       </div>  
-   </div> 
-    {home
-      ? null
-      : <>
-        <h2 className={utilStyles.headingLg}>
-          <Link href="/">
-            <a className={utilStyles.colorInherit}>{name}</a>
-          </Link>
-        </h2>
-      </>
-    }
-  </header>
+          </div>
+     </div> 
+     {home ? (
+          <>
+          </>
+        ) : (
+          <>
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/">
+                <a className={utilStyles.colorInherit}>{name}</a>
+              </Link>
+            </h2>
+          </>
+        )}
+  </header> 
 
 export default function Layout({ children, home }) {
   return (
@@ -65,6 +67,7 @@ export default function Layout({ children, home }) {
       <HeadElements />
       <Header home={home} />
       <main>{children}</main>
+           
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">

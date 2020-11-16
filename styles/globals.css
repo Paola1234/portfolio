@@ -50,6 +50,15 @@ body {
   font-size: 18px;
 }
 
+.shapesbckg{
+position: absolute;
+width: 160px;
+height: 160px;
+left: -80px;
+top: -1px;
+background: #443B96;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -129,7 +138,7 @@ img {
 
 .purple-bold-text{
   color: #443B96;
-
+  font-weight: 700;
 }
 
 .center-text{

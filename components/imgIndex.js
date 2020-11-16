@@ -1,4 +1,4 @@
-export default function Home() {
+export default function imgIndex() {
     return (
         <img src="images/profile.png"
         srcset="images/profile@2x.png 2x,

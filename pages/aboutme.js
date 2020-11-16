@@ -12,7 +12,7 @@ export default function aboutme() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2 className="center-title"> About Me </h2>
-        <span className="subtitle">Let me tell you a few facts about me</span>
+        <span className="">Let me tell you a few facts about me</span>
         <p>
         I’m a computer engineer and designer whose 
         love for tech and creativity who questions everyday “How can I make people’s life easier?”
