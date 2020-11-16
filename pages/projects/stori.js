@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Layout from '../../components/layout.js'
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from '../../styles/utils.module.css'
 
 export default function stori() {
     return (
