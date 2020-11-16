@@ -22,7 +22,7 @@ p,li{
   font-weight: 300;
 }
 /* Main titles fonts H1 H2 */
-h1,h2{
+h1,h2,h3{
   font-family: "Open Sans";
   font-weight: 700;
 }
@@ -114,15 +114,11 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
-  display: block;
-}
-
-.nameMenu{
-  max-width: 50%;
+  max-width: 30%;
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .storibckg{
   padding: 3em;

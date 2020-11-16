@@ -39,7 +39,7 @@ const HeadElements = () =>
 const Header = (home) =>
   <header className={styles.header}>
     <div id="navbar">
-      <img
+      <img 
           src="/images/name.png" className="nameMenu"/>
           <div className="flex justify-around">
             <a href="/projects">Projects</a>
