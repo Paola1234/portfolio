@@ -16,8 +16,8 @@ export default function stori() {
             <img src="/icons/projectlogos/stori.png" alt=""/>
             <h2 className="white-center-text">Gamification and rewards using a credit card</h2>
               <button><a href="#">Design Process</a></button>
-              <a href="#">Problem</a>
-              <a href="#">Solution</a>
+              <button><a href="#">Problem</a></button>
+              <button><a href="#">Solution</a></button>
               <p className="white-center-text">Mobile app</p>
               <p className="white-center-text">Gamification</p>
           </div>

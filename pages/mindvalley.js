@@ -9,7 +9,7 @@ export default function mindvalley() {
           <title>Mindvalley</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <img src=""></img>
+          <img src="/images/mindvalleylogo.svg"></img>
           <h2 className="center-title"> Why Mindvalley?</h2>
         </section>
         <section>

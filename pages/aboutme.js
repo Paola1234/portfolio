@@ -12,7 +12,7 @@ export default function aboutme() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2 className="center-title"> About Me </h2>
-        <span className="subtitle">Let me tell you a few facts about me</span>
+        <span className="subtitle text-center">Let me tell you a few facts about me</span>
         <p>
         I’m a computer engineer and designer whose 
         love for tech and creativity who questions everyday “How can I make people’s life easier?”
@@ -21,10 +21,10 @@ export default function aboutme() {
         That’s why I create experiences through tech. I'm continuously learning about topics related 
         to UX, gamification, mobile design, and innovative ways to improve people's experience.
         </p>
-        <div className="row">
-            <div className="column_equal">
-                <h3 className="purple-bold-text">Hard Skills</h3>
-                <ul>
+        <div className="row pr-8">
+            <div className="column_equal pr-8 ">
+                <h3 className="purple-bold-text mt-4">Hard Skills</h3>
+                <ul className="list-disc">
                     <li>Adobe XD</li>
                     <li>Adobe Illustrator</li>
                     <li>Adobe Photoshop</li>
@@ -42,9 +42,9 @@ export default function aboutme() {
                     <li>Zeplin</li>
                 </ul>
             </div>
-            <div className="column_equal">
-            <h3 className="purple-bold-text">Soft Skills</h3>
-                <ul>
+            <div className="column_equal mr-8">
+            <h3 className="purple-bold-text mt-4 ">Soft Skills</h3>
+                <ul className="list-disc">
                     <li>Analytic</li>
                     <li>Always learning</li>
                     <li>Creative</li>                    
