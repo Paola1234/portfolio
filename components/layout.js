@@ -44,7 +44,7 @@ const Header = (home) =>
           <div className="flex justify-around">
             <a href="/projects">Projects</a>
             <a href="/aboutme">About me</a>
-            <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">Resume</a>
+            <a href="https://drive.google.com/file/d/1vJCyx5cDYJLL6oD4y7Antt3Sx1H76f2E/view?usp=sharing">Resume</a>
           </div>
      </div> 
      {home ? (

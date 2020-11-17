@@ -12,7 +12,7 @@ export default function aboutme() {
       </Head>
       <section className={utilStyles.headingMd}>
         <h2 className="center-title"> About Me </h2>
-        <p className="text-center mb-4">Let me tell you a few facts about me</p>
+        <p className="mb-4 text-center">Let me tell you a few facts about me</p>
         <p className="mb-4">
         I’m a computer engineer and designer whose 
         love for tech and creativity who questions everyday “How can I make people’s life easier?”
@@ -61,8 +61,8 @@ export default function aboutme() {
       </section>
       <section>
             <h3 className="center-text">If you want to know more about my experience</h3>
-            <a href="https://drive.google.com/file/d/17eth5n0I086cch3-ZM6cdYjCRmnh0F89/view?usp=sharing">
-              <button className=" m-4 right-auto left-auto bg-purple-700 hover:bg-purple-500 text-white font-bold py-2 px-4 rounded">
+            <a href="https://drive.google.com/file/d/1vJCyx5cDYJLL6oD4y7Antt3Sx1H76f2E/view?usp=sharing">
+              <button className="left-auto right-auto px-4 py-2 m-4 font-bold text-white bg-purple-700 rounded  hover:bg-purple-500">
                Download my CV
               </button>
             </a>
