@@ -61,8 +61,9 @@ export default function aboutme() {
       </section>
       <section>
             <h3 className="center-text">If you want to know more about my experience</h3>
+            <p className="p-4">I've designed and developed web pages for startups and NGOs. In my CV you can find the latest 2 experiences in web design.</p>
             <a href="https://drive.google.com/file/d/1vJCyx5cDYJLL6oD4y7Antt3Sx1H76f2E/view?usp=sharing">
-              <button className="left-auto right-auto px-4 py-2 m-4 font-bold text-white bg-purple-700 rounded  hover:bg-purple-500">
+              <button className="left-auto right-auto px-4 py-2 m-4 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
                Download my CV
               </button>
             </a>
