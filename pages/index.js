@@ -10,12 +10,12 @@ export default function index() {
         <title>Paola Latino Designer Developer</title>
       </Head>
       <div className="pr-8 mt-8 row">
-            <div className="column-right ">
+            <div className="auto-cols-auto">
             <img src="/images/name.png" className="img-small"/>
             <p className="mb-4">Computer engineer and Designer. Passionate for Tech + Design. </p>
             <p className="mt-4 mb-6">Completely passionate for improving people's experience in 
                 tech through my ideas with UX/UI design.</p>
-                  <div className="pr-8 row">
+                  <div className="flex flex-wrap pr-8 row">
                       <a href="/projects">
                         <button className="left-auto right-auto px-4 py-2 my-4 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
                           My projects
@@ -33,7 +33,7 @@ export default function index() {
             <img className="center" src="/images/profile.jpg" alt=""/>
             </div>
         </div>
-        <div className="auto-rows-max">
+        <div className="flex-wrap rowMedia">
             <a href="https://www.behance.net/paola-latino" ><img className="mediaIcons" src="/icons/socialMedia/behance.svg" alt="behancePlatino"/></a>
             <a href="https://www.linkedin.com/in/paola-latino/"><img className="mediaIcons"src="/icons/socialMedia/linkedin.svg" alt="Linkedin"/></a>  
             <a href="https://medium.com/@paolalat188"><img className="mediaIcons"src="/icons/socialMedia/medium.svg" alt=""/></a> 
