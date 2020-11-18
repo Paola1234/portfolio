@@ -69,7 +69,7 @@ export default function aboutme() {
             </a>
       </section>
       <section>
-            <h3 className="center-text">Contact me here</h3>
+            <h3 className="pt-6 center-text">Contact me here</h3>
             <div className="rowMedia">
             <a href="https://www.behance.net/paola-latino" ><img className="mediaIcons" src="/icons/socialMedia/behance.svg" alt=""/></a>
             <a href="https://www.linkedin.com/in/paola-latino/"><img className="mediaIcons"src="/icons/socialMedia/linkedin.svg" alt=""/></a>  
