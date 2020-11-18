@@ -37,7 +37,7 @@ export default function index() {
             <a href="https://www.behance.net/paola-latino" ><img className="mediaIcons" src="/icons/socialMedia/behance.svg" alt="behancePlatino"/></a>
             <a href="https://www.linkedin.com/in/paola-latino/"><img className="mediaIcons"src="/icons/socialMedia/linkedin.svg" alt="Linkedin"/></a>  
             <a href="https://medium.com/@paolalat188"><img className="mediaIcons"src="/icons/socialMedia/medium.svg" alt=""/></a> 
-            <a href="https://github.com/Paola1234" ><img className="mediaIcons" src="/icons/socialMedia/github.svg" alt=""/></a>
+            <a href="https://github.com/Paola1234" ><img className="w-10 mediaIcons" src="/icons/socialMedia/github.svg" alt=""/></a>
             <a href="mailto: paolalat188@gmail.com"><img className="mediaIcons"src="/icons/socialMedia/email.svg" alt=""/></a>
         </div>
     </Layout>

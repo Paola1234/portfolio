@@ -62,8 +62,8 @@ export default function aboutme() {
       <section>
             <h3 className="center-text">If you want to know more about my experience</h3>
             <p className="p-4">I've designed and developed web pages for startups and NGOs. In my CV you can find the latest 2 experiences in web design.</p>
-            <a href="https://drive.google.com/file/d/1vJCyx5cDYJLL6oD4y7Antt3Sx1H76f2E/view?usp=sharing">
-              <button className="left-auto right-auto px-4 py-2 m-4 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
+            <a  className="flex flex-wrap justify-around px-4 py-2" href="https://drive.google.com/file/d/1JbFLHALH9IVVdv2cTt4tnLEZYOU-yDEd/view?usp=sharing">
+              <button className="flex flex-wrap justify-around px-4 py-2 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
                Download my CV
               </button>
             </a>
@@ -74,7 +74,7 @@ export default function aboutme() {
             <a href="https://www.behance.net/paola-latino" ><img className="mediaIcons" src="/icons/socialMedia/behance.svg" alt=""/></a>
             <a href="https://www.linkedin.com/in/paola-latino/"><img className="mediaIcons"src="/icons/socialMedia/linkedin.svg" alt=""/></a>  
             <a href="https://medium.com/@paolalat188"><img className="mediaIcons"src="/icons/socialMedia/medium.svg" alt=""/></a> 
-            <a href="https://github.com/Paola1234" ><img className="mediaIcons" src="/icons/socialMedia/github.svg" alt=""/></a>
+            <a href="https://github.com/Paola1234" ><img className="w-10 mediaIcons" src="/icons/socialMedia/github.svg" alt=""/></a>
             <a href="mailto: paolalat188@gmail.com"><img className="mediaIcons"src="/icons/socialMedia/email.svg" alt=""/></a>
         </div>
       </section>
