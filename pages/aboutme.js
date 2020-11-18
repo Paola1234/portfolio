@@ -60,8 +60,8 @@ export default function aboutme() {
         </div>
       </section>
       <section>
-            <h3 className="center-text">If you want to know more about my experience</h3>
-            <p className="p-4">I've designed and developed web pages for startups and NGOs. In my CV you can find the latest 2 experiences in web design.</p>
+            <h3 className="mb-2 center-text">If you want to know more about my experience</h3>
+            <p className="pb-2 text-center">I've designed and developed web pages for startups and NGOs. In my CV you can find the latest 2 experiences in web design.</p>
             <a  className="flex flex-wrap justify-around px-4 py-2" href="https://drive.google.com/file/d/1JbFLHALH9IVVdv2cTt4tnLEZYOU-yDEd/view?usp=sharing">
               <button className="flex flex-wrap justify-around px-4 py-2 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
                Download my CV
