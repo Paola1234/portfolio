@@ -41,7 +41,7 @@ export default function projects() {
         </div>
       </section>
       <section>
-        <div className="bg-gray-400">
+        <div className="mb-12 bg-gray-400">
         <h2 className="pt-10 text-xl text-center text-black">Foodie experience</h2>
           <p className="text-center text-black">for latin american backpackers in Southeast Asia</p>
           <div className="flex flex-wrap justify-around px-16 mt-4">
@@ -52,6 +52,21 @@ export default function projects() {
             <p className="mt-4 text-center text-black">Mobile App</p>
             <p className="mb-4 text-center text-black">UX Research</p>
             <img className="flex justify-around pb-10 img-small center-img" src="/icons/projectlogos/BackpackerWireframes.svg" alt=""/>
+        </div>
+      </section>
+      <section>
+        <div className="bg-white">
+          <div className="flex-wrap justify-around row">
+          <a href="https://github.com/Paola1234"><img className="flex justify-around center-img" src="/icons/socialMedia/github.svg" alt=""/></a>
+          <a href="https://gitlab.com/lp.latino788"><img className="flex justify-around bg-contain center-img" src="/icons/socialMedia/gitlab.svg" alt=""/></a>
+        </div>
+          
+          <h2 className="text-center text-black">My repositories</h2>
+          <p className="mt-4 text-center text-black">I invite you to check my repo to see some of past projects in github and gitlab </p>
+          <div className="flex flex-wrap justify-around px-16 mt-4">
+            <a href="https://github.com/Paola1234"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-purple-700 hover:border-purple-700">Github</button></a>
+            <a href="https://gitlab.com/lp.latino788"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-purple-700 hover:border-purple-700">Gitlab</button></a>
+          </div>
         </div>
       </section>
     </Layout>
