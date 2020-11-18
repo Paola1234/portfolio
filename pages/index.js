@@ -9,20 +9,20 @@ export default function index() {
       <Head>
         <title>Paola Latino Designer Developer</title>
       </Head>
-      <div className="row pr-8 mt-8">
+      <div className="pr-8 mt-8 row">
             <div className="column-right ">
             <img src="/images/name.png" className="img-small"/>
             <p className="mb-4">Computer engineer and Designer. Passionate for Tech + Design. </p>
             <p className="mt-4 mb-6">Completely passionate for improving people's experience in 
                 tech through my ideas with UX/UI design.</p>
-                  <div className="row pr-8">
+                  <div className="pr-8 row">
                       <a href="/projects">
-                        <button className=" my-4 right-auto left-auto bg-purple-700 hover:bg-purple-500 text-white font-bold py-2 px-4 rounded">
+                        <button className="left-auto right-auto px-4 py-2 my-4 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
                           My projects
                         </button>
                       </a>
                       <a href="/aboutme">
-                        <button className="m-4 right-auto left-auto bg-purple-700 hover:bg-purple-500 text-white font-bold py-2 px-4 rounded">
+                        <button className="left-auto right-auto px-4 py-2 m-4 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
                           About me
                         </button>
                       </a>
@@ -31,8 +31,14 @@ export default function index() {
             </div>
             <div className="column_left">
             <img className="center" src="/images/profile.jpg" alt=""/>
-
             </div>
+        </div>
+        <div className="auto-rows-max">
+            <a href="https://www.behance.net/paola-latino" ><img className="mediaIcons" src="/icons/socialMedia/behance.svg" alt="behancePlatino"/></a>
+            <a href="https://www.linkedin.com/in/paola-latino/"><img className="mediaIcons"src="/icons/socialMedia/linkedin.svg" alt="Linkedin"/></a>  
+            <a href="https://medium.com/@paolalat188"><img className="mediaIcons"src="/icons/socialMedia/medium.svg" alt=""/></a> 
+            <a href="https://github.com/Paola1234" ><img className="mediaIcons" src="/icons/socialMedia/github.svg" alt=""/></a>
+            <a href="mailto: paolalat188@gmail.com"><img className="mediaIcons"src="/icons/socialMedia/email.svg" alt=""/></a>
         </div>
     </Layout>
   )
