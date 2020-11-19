@@ -14,7 +14,7 @@ export default function projects() {
       </section>
       <section>
         <div className="py-16 storibckg" >
-          <img className="flex justify-around img-small center-img" src="/icons/projectlogos/stori.png" alt=""/>
+          <img className="flex img-small center-img" src="/icons/projectlogos/stori.png" alt=""/>
           <h2 className="white-center-text">Gamification and rewards using a credit card</h2>
           <div className="flex flex-wrap justify-around px-16 mt-4">
             <a href="/stori#Process"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent"> Process</button></a>

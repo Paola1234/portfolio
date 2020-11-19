@@ -129,6 +129,10 @@ img {
   max-width: 30%;
 }
 
+.img-medium {
+  max-width: 70%;
+}
+
 .button {
   background-color:  #443B96;
   border: none;

@@ -11,7 +11,7 @@ export default function index() {
       </Head>
       <div className="pr-8 mt-8 row">
             <div className="auto-cols-auto">
-            <img src="/images/name.png" className="img-small"/>
+            <h1 className="mb-4 text-5xl leading-10">Paola Latino Tovar</h1>
             <p className="mb-4">Computer engineer and Designer. Passionate for Tech + Design. </p>
             <p className="mt-4 mb-6">Completely passionate for improving people's experience in 
                 tech through my ideas with UX/UI design.</p>
@@ -22,12 +22,12 @@ export default function index() {
                         </button>
                       </a>
                       <a href="/aboutme">
-                        <button className="left-auto right-auto px-4 py-2 m-4 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
+                        <button className="left-auto right-auto px-4 py-2 mt-4 ml-1 font-bold text-white bg-purple-700 rounded hover:bg-purple-500">
                           About me
                         </button>
                       </a>
                   </div>  
-                  <img src="/icons/Dots Back.svg" className="flex justify-start"/>         
+                  <img src="/icons/Dots Back.svg" className="flex justify-start max-w-sm sm:pt-4 img-medium"/>         
             </div>
             <div className="column_left">
             <img className="center" src="/images/profile.jpg" alt=""/>
