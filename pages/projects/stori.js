@@ -220,7 +220,7 @@ export default function aboutme() {
             </section>
 
             <section id="wireframes-stori">
-                <h3 className="mt-4 text-2xl font-bold text-black">Wireframes:</h3>
+                <h3 className="mt-8 text-2xl font-bold text-black">Wireframes:</h3>
                 <p>To begin with the wireframe process, I did these sketches that also helped me to do the user flow that my user would have to do only for watching the points and the current status in the level.</p>
                 <img src="https://cdn-images-1.medium.com/max/3840/1*7335Yh-Sft8y7Y97Hd5KzA.png"></img>
             
@@ -247,7 +247,7 @@ export default function aboutme() {
             </section>
             
             <section>
-                <h3 className="mt-4 text-3xl font-bold text-black">Next Steps</h3>
+                <h3 className="mt-10 text-3xl font-bold text-black">Next Steps</h3>
                 <p className="mb-4">These are some features that I recommend the app should have so this whole experience of the rewards can be the best:</p>
                 <ol className="pb-4 pl-6 list-decimal">
                      <li>Create a calendar so the user can check how much spent per day.</li>
@@ -257,7 +257,7 @@ export default function aboutme() {
                      <li>A thermometer to show people how much their score in the bureau is improving or not with the user's financial behavior.</li>
                 </ol>
              </section>
-             <h3 className="mt-4 text-3xl font-bold text-black">Conclusion</h3>
+             <h3 className="mt-8 text-3xl font-bold text-black">Conclusion</h3>
                 <p className="mb-4">In the end, because of the time, I couldn’t test all the missions created with real users, but I know that it would have been good to understand if those missions really create a good financial 
                 habit and if these missions would help to motivate users to stay longer with the card.</p>
                     <p className="mb-2 italic">This project won as the best project of the 35th generation of UX/UI Bootcamp in Ironhack Mexico City.</p>
