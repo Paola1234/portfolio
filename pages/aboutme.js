@@ -24,7 +24,7 @@ export default function aboutme() {
         <div className="row">
             <div className="column_equal">
                 <h3 className="purple-bold-text">Hard Skills</h3>
-                <ul className="list-disc">
+                <ul className="list-disc list-inside">
                     <li>Adobe XD</li>
                     <li>Adobe Illustrator</li>
                     <li>Adobe Photoshop</li>
@@ -44,7 +44,7 @@ export default function aboutme() {
             </div>
             <div className="column_equal">
             <h3 className="purple-bold-text">Soft Skills</h3>
-                <ul className="list-disc">
+                <ul className="list-disc list-inside">
                     <li>Analytic</li>
                     <li>Always learning</li>
                     <li>Creative</li>                    

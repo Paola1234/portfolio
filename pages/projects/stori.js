@@ -12,9 +12,9 @@ export default function aboutme() {
         </Head>
         <section className={utilStyles.headingMd}>
                 <h1 className="text-4xl text-black"> Stori card — Case Study</h1>
-                <h3 className="text-light">Gamification and rewards in a credit card</h3>
-                <p className="text-light"> Mobile app</p>
-                <p className="mb-4"> Gamification</p>
+                <h3 className="text-m">Gamification and rewards in a credit card</h3>
+                <p className="text-sm italic text-light"> Mobile app</p>
+                <p className="mb-4 text-sm italic text-light"> Gamification</p>
                 <img src="https://cdn-images-1.medium.com/max/5696/1*T9vRCqnjqxH-JQP4z6cwuw.png"
                 alt="Title Stori"/>
 
