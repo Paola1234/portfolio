@@ -21,8 +21,8 @@ export default function projects() {
             <a href="/projects/stori#problem-stori"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
             <a href="/projects/stori#wireframes-stori"><button className="px-2 py-1 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Wireframes</button></a>
           </div>
-          <p className="mt-4 white-center-text">Mobile app</p>
-          <p className="mb-4 white-center-text">Gamification</p>
+          <p className="mt-4 italic white-center-text">Mobile app</p>
+          <p className="mb-4 italic white-center-text">Gamification</p>
           <img className="center img-small center-img" src="/images/projectsImage/cardsStori.svg" alt=""/>
         </div>
       </section>
@@ -35,8 +35,8 @@ export default function projects() {
             <a href="/estereo"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
             <a href="/estereo"><button className="px-2 py-1 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Solution</button></a>
           </div>
-            <p className="mt-4 white-center-text">Responsive Design</p>
-            <p className="mb-4 white-center-text">Mobile First</p>
+            <p className="mt-4 italic white-center-text">Responsive Design</p>
+            <p className="mb-4 italic white-center-text">Mobile First</p>
           <img className="center img-small center-img" src="/images/projectsImage/estereoMockup.png" alt=""/>
         </div>
       </section>
@@ -49,8 +49,8 @@ export default function projects() {
             <a href="/backpackers"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Problem</button></a>
             <a href="/backpackers"><button className="px-2 py-1 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Solution</button></a>
           </div>
-            <p className="mt-4 text-center text-black">Mobile App</p>
-            <p className="mb-4 text-center text-black">UX Research</p>
+            <p className="mt-4 italic text-center text-black">Mobile App</p>
+            <p className="mb-4 italic text-center text-black">UX Research</p>
             <img className="flex justify-around pb-10 img-small center-img" src="/icons/projectlogos/BackpackerWireframes.svg" alt=""/>
         </div>
       </section>
