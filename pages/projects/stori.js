@@ -8,16 +8,39 @@ export default function aboutme() {
     return (
         <Layout>
         <Head>
-            <title>About me</title>
+            <title>Stori Project</title>
         </Head>
         <section className={utilStyles.headingMd}>
                 <h1 className="text-4xl text-black"> Stori card — Case Study</h1>
-                <h3 className="">Gamification and rewards in a credit card</h3>
-                <p className=""> Mobile app</p>
+                <h3 className="text-light">Gamification and rewards in a credit card</h3>
+                <p className="text-light"> Mobile app</p>
                 <p className="mb-4"> Gamification</p>
                 <img src="https://cdn-images-1.medium.com/max/5696/1*T9vRCqnjqxH-JQP4z6cwuw.png"
                 alt="Title Stori"/>
+
             <section>
+                <h3 className="mt-8 text-3xl font-bold text-black">Summary</h3>
+                <ul className="pb-4 pl-6 list-disc list-inside">
+                    <li><a href="#myrole-stori">My role</a></li>
+                    <li><a href="#process_stori">Tools</a></li>
+                    <li><a href="#process_stori">Process</a></li>
+                    <li><a href="#whatisstori">What is Stori?</a></li>
+                    <li><a href="#insights-stori">Important Insights</a></li>
+                    <li><a href="#problem-stori">Problem</a></li>
+                    <li><a href="#user_stori">Our User</a></li>
+                    <li><a href="#solution-stori">Solution - Gamification System</a></li>
+                    <ul className="pl-10 list-decimal">
+                        <li><a href="#stage1">Stage 1 - Bronce</a></li>
+                        <li><a href="#stage2">Stage 2 - Silver</a></li>
+                        <li><a href="#stage3">Stage 3 - Gold</a></li>
+                    </ul>
+                    <li><a href="#wireframes-stori">Wireframes</a></li>
+                    <li><a href="#next-stori">Next Steps</a></li>
+                    <li><a href="#conclusions-stori">Conclusions</a></li>
+                </ul>
+            </section>
+
+            <section id="myrole-stori">
                 <h2 className="mt-8 text-3xl font-bold text-black">My role</h2>
                     <ul className="pb-4 pl-6 list-disc list-inside">
                         <li>UX Researcher/UI Designer</li>
@@ -41,7 +64,7 @@ export default function aboutme() {
                 alt="This was the process during the 2 weeks"/>
              </section>
 
-             <section >
+             <section id="whatisstori" >
                 <h3 className="mt-8 text-3xl font-bold text-black">What is Stori?</h3>
                 <p className="mt-4 mb-4 italic "> Did you know that only 12% of the people in Mexico have a bank account? Stori is a credit card whose value proposition 
                 is focused on people who need to start their credit life and want to motivate their users to have a good financial education. This fintech started in January 2020.</p>
@@ -55,7 +78,7 @@ export default function aboutme() {
                 me that data, so I decided to add an option in the survey were people that wanted to be interviewed gave me their email to contact them.</p>
              </section>
 
-             <section >
+             <section id="insights-stori" >
                 <h3 className="mt-8 text-3xl font-bold text-black">Important insights</h3>
                 <p className="mt-4 mb-4 "><span className="italic">The most common pattern found in people that had debts with the credit card, is that they said that the main cause of that issue 
                 was that they did impulsive shopping or unconscious shopping, also they thought that the card was an extra income and spent more than what can pay with their salary.</span> Other important insights found are:</p>
@@ -82,7 +105,7 @@ export default function aboutme() {
                 gets longer and the percentage of users retiring from the card gets lesser.</span></p>
             </section>
 
-            <section>
+            <section id="user_stori">
                 <h3 className="mt-4 text-3xl font-bold text-black">Our User</h3>
                 <img src="https://cdn-images-1.medium.com/max/6400/1*oSUvYkeNKyEa9pQbPAWoNw.png"
                     alt="User Persona Stori"/>
@@ -106,7 +129,7 @@ export default function aboutme() {
                 alt="The image got from Google Design"/>
             </section>
 
-            <section>
+            <section id="stage1">
                 <h3 className="mt-6 text-2xl font-bold text-black">1. Stage 1 — Bronce:</h3>
                 <ol className="pl-6">
                     <li>1. <span className="pb-4 font-bold">The main objective</span> of this stage is to help the user to create consciousness and good financial habits. </li>
@@ -140,7 +163,7 @@ export default function aboutme() {
                 </ol>
             </section>
 
-            <section>
+            <section id="stage2">
                 <h3 className="mt-4 text-2xl font-bold text-black">2. Stage 2 — Silver:</h3>
                 <img className="flex-wrap items-center mx-auto mt-4 mb-4" src="/images/cards/TarjetaDeCreditoPlata.svg"></img>
                 <ol className="pl-6">
@@ -178,7 +201,7 @@ export default function aboutme() {
                 </ol>
             </section>
 
-            <section>
+            <section id="stage3">
                 <h3 className="mt-4 text-2xl font-bold text-black">3. Stage 3 — Gold:</h3>
                 <img className="flex-wrap items-center mx-auto mt-4 mb-4" src="/images/cards/TarjetaDeCreditoOro.svg"></img>
                 <ol className="pl-6">
@@ -246,7 +269,7 @@ export default function aboutme() {
                 <p className="text-center">Check the <a href="Check the [interactive prototype here](https://paolalatino902732.invisionapp.com/public/share/QH1DF2IO82#screens/479841653)">interactive prototype here.</a></p>
             </section>
             
-            <section>
+            <section id="next-stori">
                 <h3 className="mt-10 text-3xl font-bold text-black">Next Steps</h3>
                 <p className="mb-4">These are some features that I recommend the app should have so this whole experience of the rewards can be the best:</p>
                 <ol className="pb-4 pl-6 list-decimal">
@@ -257,7 +280,7 @@ export default function aboutme() {
                      <li>A thermometer to show people how much their score in the bureau is improving or not with the user's financial behavior.</li>
                 </ol>
              </section>
-             <h3 className="mt-8 text-3xl font-bold text-black">Conclusion</h3>
+             <h3 id="conclusions-stori" className="mt-8 text-3xl font-bold text-black">Conclusion</h3>
                 <p className="mb-4">In the end, because of the time, I couldn’t test all the missions created with real users, but I know that it would have been good to understand if those missions really create a good financial 
                 habit and if these missions would help to motivate users to stay longer with the card.</p>
                     <p className="mb-2 italic">This project won as the best project of the 35th generation of UX/UI Bootcamp in Ironhack Mexico City.</p>
