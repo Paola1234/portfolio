@@ -35,6 +35,11 @@ export default function projects() {
             <a href="/projects/estereo#problem"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
             <a href="/projects/estereo#solution"><button className="px-2 py-1 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Solution</button></a>
           </div>
+          <div className="flex flex-wrap justify-around mt-2">
+            <a href="/projects/estereo#design"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Design</button></a>
+            <a href="/projects/estereo#prototype"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Prototype</button></a>
+            <a href="/projects/estereo#hifi"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Hi-Fi Prototype</button></a>
+          </div>
             <p className="mt-4 italic white-center-text">Responsive Design</p>
             <p className="mb-4 italic white-center-text">Mobile First</p>
           <img className="center img-small center-img" src="/images/projectsImage/estereoMockup.png" alt=""/>
