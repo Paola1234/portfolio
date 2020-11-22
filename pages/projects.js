@@ -31,9 +31,9 @@ export default function projects() {
           <img className="flex justify-around img-small center-img" src="/icons/projectlogos/estereo.png" alt=""/>
           <h2 className="mt-4 white-center-text ">A new Festival experience during COVID-19 times</h2>
           <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/estereo"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Process</button></a>
-            <a href="/estereo"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
-            <a href="/estereo"><button className="px-2 py-1 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Solution</button></a>
+            <a href="/projects/estereo#persona"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Persona</button></a>
+            <a href="/projects/estereo#problem"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
+            <a href="/projects/estereo#solution"><button className="px-2 py-1 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Solution</button></a>
           </div>
             <p className="mt-4 italic white-center-text">Responsive Design</p>
             <p className="mb-4 italic white-center-text">Mobile First</p>

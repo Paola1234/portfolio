@@ -23,7 +23,7 @@ export default function aboutme() {
         </p>
         <div className="row">
             <div className="column_equal">
-                <h3 className="purple-bold-text">Hard Skills</h3>
+                <h3 className="text-xl purple-bold-text">Hard Skills</h3>
                 <ul className="list-disc list-inside">
                     <li>Adobe XD</li>
                     <li>Adobe Illustrator</li>
@@ -43,7 +43,7 @@ export default function aboutme() {
                 </ul>
             </div>
             <div className="column_equal">
-            <h3 className="purple-bold-text">Soft Skills</h3>
+            <h3 className="text-xl purple-bold-text">Soft Skills</h3>
                 <ul className="list-disc list-inside">
                     <li>Analytic</li>
                     <li>Always learning</li>
