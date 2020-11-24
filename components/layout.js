@@ -42,9 +42,9 @@ const Header = (home) =>
       <a href="/"><img 
          src="/images/name.png" className="img-small center-img"/></a> 
           <div className="flex justify-around">
-            <a href="/projects">Projects</a>
-            <a href="/aboutme">About me</a>
-            <a href="https://drive.google.com/file/d/1vJCyx5cDYJLL6oD4y7Antt3Sx1H76f2E/view?usp=sharing">Resume</a>
+            <a className="hover:text-bold" href="/projects">Projects</a>
+            <a className="hover:text-bold" href="/aboutme">About me</a>
+            <a className="hover:text-bold" href="https://drive.google.com/file/d/1vJCyx5cDYJLL6oD4y7Antt3Sx1H76f2E/view?usp=sharing">Resume</a>
           </div>
      </div> 
      {home ? (
@@ -69,11 +69,11 @@ export default function Layout({ children, home }) {
       <main>{children}</main>
            
       {!home && (
-        <div className={styles.backToHome }>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
+         <div className={styles.backToHome }>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
       )}
     </div>
   )

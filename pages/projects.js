@@ -50,9 +50,9 @@ export default function projects() {
         <h2 className="pt-10 text-xl text-center text-black">Foodie experience</h2>
           <p className="text-center text-black">for latin american backpackers in Southeast Asia</p>
           <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/backpackers"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Design Process</button></a>
-            <a href="/backpackers"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Problem</button></a>
-            <a href="/backpackers"><button className="px-2 py-1 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Solution</button></a>
+            <a href="/projects/backpackers#process"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Design Process</button></a>
+            <a href="/projects/backpackers#problem"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Problem</button></a>
+            <a href="/projects/backpackers#insights"><button className="px-2 py-1 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Solution</button></a>
           </div>
             <p className="mt-4 italic text-center text-black">Mobile App</p>
             <p className="mb-4 italic text-center text-black">UX Research</p>
