@@ -10,22 +10,20 @@ export default function mindvalley() {
         </Head>
         <section>          
           <img className="flex justify-around mx-auto img-small" src="/images/mv-logo.png"></img>
-          <h2 className="center-title"> Why Mindvalley?</h2>
+          <h2 className="center-title"> ¿Porque Multiplica?</h2>
         </section>
         <section>
         <div>
-              <h3 className="m-4">Hi design team! </h3> 
-              <p className="m-4">The first time I heard about Mindvalley, It was by the time when a close friend recommended me to start to meditate 
-                and I took "The 6 phase of meditation" by Vishen, since that time I admired how your courses can improve people's life and I feel 
-                identified with that. </p> 
-                <video controls autoPlay width="800" height="600" name="Video Name" src="/images/6PhaseMeditation.mov"></video>
+              <h3 className="m-4">¡Hola equipo de Multiplica! </h3> 
+              <p className="m-4"> Razon 1</p> 
+                <video controls="autoplay" width="800" height="600" name="Video Name" src="/images/6PhaseMeditation.mov"></video>
                 
               <p className="m-4">I felt motivated to apply because I've seen how your company culture had help people in your team to be 
                   their best version in their professional and personal life, and for my next steps I've been investing on
                   me to achieve the same, by buying books and taking courses about personal development and UX design. </p> 
 
               <p className="m-4">I know I can be a good asset for your team because these main reasons: </p>
-              <ul className="pl-6 list-disc list-inside">
+              <ul className="list-disc list-inside">
                 <li> In my thesis I did a deep research about personal development platforms and I learned a lot from yours and others from the market 
                   which helped me to understand the reality of the market.</li>
                 <li> I combine both of my strengths developer and designer.</li>
