@@ -39,7 +39,7 @@ export default function mindvalley() {
                <p className="m-4"> I know the impact that your platform can do and I want to be part of your "J.A.R.V.I.S" for personal 
                    development project through being a junior web designer because it's aligned with my passion and my mission 
                    in life to improve people's life through tech and I know I can do it with my design and developer abilities. </p>
-              <p className="m-4">I really hope to hear from you soon. Thanks for reading</p>
+              <p className="m-4">I really hope to hear from you soon. Thanks for reading and I recommend you to <a className="font-bold" href="/projects/estereo">check this project about responsive design.</a></p>
           </div>
         </section>
       </Layout>
