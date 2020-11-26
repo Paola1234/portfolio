@@ -59,13 +59,18 @@ export default function projects() {
             <img className="flex justify-around pb-10 img-small center-img" src="/icons/projectlogos/BackpackerWireframes.svg" alt=""/>
         </div>
       </section>
+      <section className="mb-16">
+      <img className="flex justify-around img-small center-img" src="/icons/socialMedia/figma.png" alt=""/>
+          <h2 className="text-2xl text-center text-black">Figma projects</h2>
+          <p className="m-2 text-center text-black">I invite you to check in here some fast projects done in Figma. Most of them are focused on UI design.</p>
+          <a href="/projects/figmaprojects"><button className="flex flex-wrap justify-around object-center px-2 py-1 mx-auto font-bold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-purple-700 hover:border-purple-700 ">Check in here</button></a>
+      </section>
       <section>
         <div className="bg-white">
           <div className="flex-wrap justify-around row">
           <a href="https://github.com/Paola1234"><img className="flex justify-around center-img" src="/icons/socialMedia/github.svg" alt=""/></a>
           <a href="https://gitlab.com/lp.latino788"><img className="flex justify-around bg-contain center-img" src="/icons/socialMedia/gitlab.svg" alt=""/></a>
         </div>
-          
           <h2 className="text-center text-black">My repositories</h2>
           <p className="mt-4 text-center text-black">I invite you to check my repo to see some of past projects in github and gitlab </p>
           <div className="flex flex-wrap justify-around px-16 mt-4">
