@@ -60,7 +60,7 @@ export default function aboutme() {
 
             <section >
                 <h3 className="mt-8 text-3xl font-bold text-black">Process</h3>
-                <img src="https://cdn-images-1.medium.com/max/3496/1*eiFVzHbWVno-6dDnRUmjaA.png" 
+                <img className="rounded-md" src="https://cdn-images-1.medium.com/max/3496/1*eiFVzHbWVno-6dDnRUmjaA.png" 
                 alt="This was the process during the 2 weeks"/>
              </section>
 
@@ -72,7 +72,7 @@ export default function aboutme() {
                 them had debts issues with the credit card and the other 3 people are direct people that use Stori credit card (that I met through a Facebook group). For the quantitative 
                 process, I sent a survey through some Facebook groups of people that have the credit card, also these groups helped to look for some of the issues that had been happening 
                 in the app such as, not updating on time the payments.</p>
-                <img src="https://cdn-images-1.medium.com/max/5120/1*yGilmxRwgQH2fuBed01qqA.png" 
+                <img className="rounded-md" src="https://cdn-images-1.medium.com/max/5120/1*yGilmxRwgQH2fuBed01qqA.png" 
                     alt="Taken from [storicard.com](http://storicard.com)"/>
                 <p className="mt-4 mb-4">At the beginning, it was difficult to find people to interview that had the Stori credit card because the card is very new, and the bank couldn’t give 
                 me that data, so I decided to add an option in the survey were people that wanted to be interviewed gave me their email to contact them.</p>
@@ -88,7 +88,7 @@ export default function aboutme() {
                          and also because it doesn’t have any big benefits, only cashback and gain points with the national bureau for a future loan.</li>
                      <li>63% of the people that answered the survey said that improving their score in the national bureau of credit motivates them.</li>
                 </ul>
-                <img src="https://cdn-images-1.medium.com/max/6438/1*l0EBFYNCeM8b5v6QxMvNgw.jpeg"
+                <img className="rounded-md" src="https://cdn-images-1.medium.com/max/6438/1*l0EBFYNCeM8b5v6QxMvNgw.jpeg"
                     alt="Photo by [Mika Baumeister](https://unsplash.com/@mbaumi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash"/>
              </section>
 
@@ -107,7 +107,7 @@ export default function aboutme() {
 
             <section id="user_stori">
                 <h3 className="mt-4 text-3xl font-bold text-black">Our User</h3>
-                <img src="https://cdn-images-1.medium.com/max/6400/1*oSUvYkeNKyEa9pQbPAWoNw.png"
+                <img className="rounded-md" src="https://cdn-images-1.medium.com/max/6400/1*oSUvYkeNKyEa9pQbPAWoNw.png"
                     alt="User Persona Stori"/>
             </section>
 
@@ -116,7 +116,7 @@ export default function aboutme() {
                 <p className="">Based on these three main HMW questions, I did a brainstorming with all the possible solutions that can help to achieve the main goal 
                 and also would help the user to have a better experience, after doing the brainstorm I used the Moscow diagram and the Value vs. Effort diagram which helped me 
                 to select the MVP, which at the end was a rewards program divided into three main stages, that I’m gonna show you in this article:</p>
-                <img
+                <img className="rounded-md"
                     src="https://cdn-images-1.medium.com/max/4048/1*feCvCTLTUjJKv7Cwo2k64A.png"
                     alt="These are the main three stages of how the program would be divided"/>
 
@@ -125,7 +125,7 @@ export default function aboutme() {
                 <p>Also based on some of the interviews, I realized that some of the people that had big debts before didn’t have good financial habits such as make a constant follow up of the expenses and that’s why they used to be surprised by the debt at the end of the month. That’s the reason why in the first stage, there are more missions in which the user can create consciousness of 
                     their expenses, make constant follow up and can learn that they don’t need to use more than the 10% of their incomes with the credit card.
                     To design these healthy routines I was based on the mobile app, <a href="https://www.thefabulous.co/about-the-fabulous.html">designed by Duke University, called “Fabulous”</a>, which incentivizes the users to repeat 3 times straight healthy actions and also based on the level the user receives articles for motivation (which can be a future option for Stori too).</p>  
-                <img className="mt-6" src="https://cdn-images-1.medium.com/max/4864/0*YiOGVWq2x7vKHUuU.jpg"
+                <img className="mt-6 rounded-md" src="https://cdn-images-1.medium.com/max/4864/0*YiOGVWq2x7vKHUuU.jpg"
                 alt="The image got from Google Design"/>
             </section>
 
@@ -283,7 +283,7 @@ export default function aboutme() {
              <h3 id="conclusions-stori" className="mt-8 text-3xl font-bold text-black">Conclusion</h3>
                 <p className="mb-4">In the end, because of the time, I couldn’t test all the missions created with real users, but I know that it would have been good to understand if those missions really create a good financial 
                 habit and if these missions would help to motivate users to stay longer with the card.</p>
-                    <p className="mb-2 italic">This project won as the best project of the 35th generation of UX/UI Bootcamp in Ironhack Mexico City.</p>
+                    <p className="mb-2 italic font-bold">This project won as the best project of the 35th generation of UX/UI Bootcamp in Ironhack Mexico City.</p>
                     <p className="italic">If you want to create awesome things with tech and know about my projects contact me through <a className="font-bold" href="https://www.linkedin.com/in/paola-latino/">LinkedIn</a></p>
                 
              <section>
