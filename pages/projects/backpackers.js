@@ -12,7 +12,7 @@ export default function backpackers() {
                 <h1 className="text-4xl text-black">Latin American Backpackers around southeast Asia- Case Study</h1>
                 <p className="text-sm italic text-light">UX Research</p>
                 <p className="mb-4 text-sm italic text-light">Mobile App </p>
-                <img src="https://cdn-images-1.medium.com/max/5696/1*2mLq57jAM7EXq37MvsqlTw.png"
+                <img className="rounded-md" src="https://cdn-images-1.medium.com/max/5696/1*2mLq57jAM7EXq37MvsqlTw.png"
                 alt="Title Backpacker"/>
 
             <section>

@@ -13,7 +13,7 @@ export default function estereo() {
                 <h3 className="text-m">A new festival experience during COVID — 19 times</h3>
                 <p className="text-sm italic text-light">Responsive Design</p>
                 <p className="mb-4 text-sm italic text-light">Mobile First</p>
-                <img src="https://cdn-images-1.medium.com/max/5696/1*bxbiPdfbIQ5fU5BtfydciA.png"
+                <img className="rounded-md" src="https://cdn-images-1.medium.com/max/5696/1*bxbiPdfbIQ5fU5BtfydciA.png"
                 alt="Title Estereo"/>
 
             <section>
