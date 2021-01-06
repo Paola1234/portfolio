@@ -13,13 +13,13 @@ export default function projects() {
         <h2 className="mb-8 center-title"> My projects</h2>
       </section>
       <section>
-        <div className="py-16 storibckg" >
+        <div className="py-16 rounded-md storibckg" >
           <img className="flex img-small center-img" src="/icons/projectlogos/stori.png" alt=""/>
           <h2 className="mt-4 white-center-text">Gamification and rewards using a credit card</h2>
           <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/projects/stori#process_stori"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Process</button></a>
-            <a href="/projects/stori#problem-stori"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
-            <a href="/projects/stori#wireframes-stori"><button className="px-2 py-1 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Wireframes</button></a>
+            <a href="/projects/stori#process_stori"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Process</button></a>
+            <a href="/projects/stori#problem-stori"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
+            <a href="/projects/stori#wireframes-stori"><button className="px-2 py-1 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Wireframes</button></a>
           </div>
           <p className="mt-4 italic white-center-text">Mobile app</p>
           <p className="mb-4 italic white-center-text">Gamification</p>
@@ -27,18 +27,18 @@ export default function projects() {
         </div>
       </section>
       <section>
-        <div className="estereobckg">
+        <div className="rounded-md estereobckg">
           <img className="flex justify-around img-small center-img" src="/icons/projectlogos/estereo.png" alt=""/>
           <h2 className="mt-4 white-center-text ">A new Festival experience during COVID-19 times</h2>
           <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/projects/estereo#persona"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Persona</button></a>
-            <a href="/projects/estereo#problem"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
-            <a href="/projects/estereo#solution"><button className="px-2 py-1 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Solution</button></a>
+            <a href="/projects/estereo#persona"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Persona</button></a>
+            <a href="/projects/estereo#problem"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Problem</button></a>
+            <a href="/projects/estereo#solution"><button className="px-2 py-1 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Solution</button></a>
           </div>
           <div className="flex flex-wrap justify-around mt-2">
-            <a href="/projects/estereo#design"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Design</button></a>
-            <a href="/projects/estereo#prototype"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Prototype</button></a>
-            <a href="/projects/estereo#hifi"><button className="px-2 py-1 mb-2 font-semibold text-white bg-transparent border rounded hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Hi-Fi Prototype</button></a>
+            <a href="/projects/estereo#design"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Design</button></a>
+            <a href="/projects/estereo#prototype"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Prototype</button></a>
+            <a href="/projects/estereo#hifi"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border rounded hover:scale-105 hover:bg-white-500 hover:text-white border-white-700 hover:border-transparent">Hi-Fi Prototype</button></a>
           </div>
             <p className="mt-4 italic white-center-text">Responsive Design</p>
             <p className="mb-4 italic white-center-text">Mobile First</p>
@@ -46,13 +46,13 @@ export default function projects() {
         </div>
       </section>
       <section>
-        <div className="mb-12 bg-gray-400">
+        <div className="mb-12 bg-gray-400 rounded-md">
         <h2 className="pt-10 text-xl text-center text-black">Foodie experience</h2>
           <p className="text-center text-black">for latin american backpackers in Southeast Asia</p>
           <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/projects/backpackers#process"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Design Process</button></a>
-            <a href="/projects/backpackers#problem"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Problem</button></a>
-            <a href="/projects/backpackers#insights"><button className="px-2 py-1 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-white hover:border-white">Solution</button></a>
+            <a href="/projects/backpackers#process"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Design Process</button></a>
+            <a href="/projects/backpackers#problem"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Problem</button></a>
+            <a href="/projects/backpackers#insights"><button className="px-2 py-1 font-semibold text-black transform bg-transparent border border-black rounded hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Solution</button></a>
           </div>
             <p className="mt-4 italic text-center text-black">Mobile App</p>
             <p className="mb-4 italic text-center text-black">UX Research</p>
@@ -63,7 +63,7 @@ export default function projects() {
       <img className="flex justify-around img-small center-img" src="/icons/socialMedia/figma.png" alt=""/>
           <h2 className="text-2xl text-center text-black">Figma projects</h2>
           <p className="m-2 text-center text-black">I invite you to check in here some fast projects done in Figma. Most of them are focused on UI design.</p>
-          <a href="/projects/figmaprojects"><button className="flex flex-wrap justify-around object-center px-2 py-1 mx-auto font-bold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-purple-700 hover:border-purple-700 ">Check in here</button></a>
+          <a href="/projects/figmaprojects"><button className="flex flex-wrap justify-around object-center px-2 py-1 mx-auto font-bold text-black transform bg-transparent border border-black rounded hover:scale-105 hover:bg-white-500 hover:text-purple-700 hover:border-purple-700 ">Check in here</button></a>
       </section>
       <section>
         <div className="bg-white">
@@ -74,8 +74,8 @@ export default function projects() {
           <h2 className="text-center text-black">My repositories</h2>
           <p className="mt-4 text-center text-black">I invite you to check my repo to see some of past projects in github and gitlab </p>
           <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="https://github.com/Paola1234"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-purple-700 hover:border-purple-700">Github</button></a>
-            <a href="https://gitlab.com/lp.latino788"><button className="px-2 py-1 mb-2 font-semibold text-black bg-transparent border border-black rounded hover:bg-white-500 hover:text-purple-700 hover:border-purple-700">Gitlab</button></a>
+            <a href="https://github.com/Paola1234"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded hover:scale-105 hover:bg-white-500 hover:text-purple-700 hover:border-purple-700">Github</button></a>
+            <a href="https://gitlab.com/lp.latino788"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded hover:scale-105 hover:bg-white-500 hover:text-purple-700 hover:border-purple-700">Gitlab</button></a>
           </div>
         </div>
       </section>
