@@ -92,15 +92,18 @@ export default function estereo() {
                 <p className="mt-2">As a charter operator, I want to do a follow up of my fleet state so that will allow Flapz and me to know which of the charters in my fleet are available to rent.</p>
                 
                 <p className="my-4 text-xl font-bold text-black"> · Solution</p>   
-                <p className="my-4"></p>
+                <p className="my-4">For this version we decided that as an MVP, the best and most solution for now, was to create a table that shows which is the current state of the fleet. 
+                The user can update it by creating an event in the main calendar and choosing which is the current state of the flight.</p>
             </section>
 
             <section id="userstory3">
                 <h3 className="mt-12 text-3xl font-bold text-black"> User Story 3</h3>
-                <p className="mt-2">As a charter operator, I want to do follow up of my pilots information, such as the flight hours done in the current month or when does their licenses expire so that will allow me to know if they can be asign to any of the coming flights.</p>
+                <p className="mt-2">As a charter operator, I want to follow up all pilots' flight information, such as the flight hours done in the current month or when does their licenses expire 
+                so that will allow me to know if they can be asign to any of the coming flights.</p>
                 
                 <p className="my-4 text-xl font-bold text-black"> · Solution</p>  
-                <p className="my-4"></p> 
+                <p className="my-4">For this MVP, the product team decided that the best decision was to simply create a table with the main basic information such as name, license number, Planes allowed and number of hours done in the current month.  
+                For the next version is expected to add the dates when the licenses expire.</p> 
                 
             </section>
 
