@@ -9,19 +9,19 @@ export default function estereo() {
             <title>Estereo Picnic Project</title>
         </Head>
         <section className={utilStyles.headingMd}>
-                <h1 className="text-4xl text-black"> Estereo Picnic Festival —Case Study</h1>
-                <h3 className="text-m">A new festival experience during COVID — 19 times</h3>
-                <p className="text-sm italic text-light">Responsive Design</p>
-                <p className="mb-4 text-sm italic text-light">Mobile First</p>
+                <h1 className="text-4xl text-black"> Flapz Design System</h1>
+                <h3 className="text-m">A standard created to design faster and have better communication with the developers</h3>
+                <p className="text-sm italic text-light">UI Design</p>
+                <p className="mb-4 text-sm italic text-light">Figma</p>
                 <img className="rounded-md" src="https://cdn-images-1.medium.com/max/5696/1*bxbiPdfbIQ5fU5BtfydciA.png"
-                alt="Title Estereo"/>
+                alt="TitleDesignSystem"/>
 
             <section>
                 <h3 className="mt-8 text-3xl font-bold text-black">Summary</h3>
                 <ul className="pb-4 pl-6 list-disc list-inside">
                     <li><a href="#myrole">My role</a></li>
                     <li><a href="#tools">Tools</a></li>
-                    <li><a href="#problem">Main Problem</a></li>
+                    <li><a href="#problem">Colors, texts and</a></li>
                     <li><a href="#persona">User Persona</a></li>
                     <li><a href="#journey">User Journey</a></li>
                     <li><a href="#solution">Solution</a></li>
