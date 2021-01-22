@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../../components/layout.js'
 import utilStyles from '../../styles/utils.module.css'
 
-export default function estereo() {
+export default function dashboardb2b() {
     return (
         <Layout>
         <Head>

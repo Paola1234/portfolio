@@ -8,6 +8,8 @@ module.exports = {
       extend: {
         colors: {
           'accent-1': '#333',
+          'grey-back':'#F9F8F8',
+          'my-purple':'#443B96',
         },
       },
     },
