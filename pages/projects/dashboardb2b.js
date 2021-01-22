@@ -27,7 +27,7 @@ export default function estereo() {
                     <li><a href="#userstory2">User Story 2</a></li>
                     <li><a href="#userstory3">User Story 3</a></li>
                     <li><a href="#userstory4">User Story 4 and 5</a></li>
-                    <li><a href="#wireframes">Prototype</a></li>
+                    <li><a href="#prototype">Prototype</a></li>
                     <li><a href="#nextsteps">Next Steps</a></li>
                     <li><a href="#conclusion">Learnings</a></li>
                 </ul>
@@ -118,7 +118,7 @@ export default function estereo() {
 
             <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
-            <section id="wireframes">
+            <section id="prototype">
                 <h3 className="mt-8 text-3xl font-bold text-black">Final Prototype</h3>
                 <p>Check the <a className="font-bold" src="https://designflapz283427.invisionapp.com/console/share/351I0VXCKG/480485697">prototype here</a></p>
                 <a src="https://designflapz283427.invisionapp.com/console/share/351I0VXCKG/480485697">
