@@ -21,7 +21,7 @@ export default function estereo() {
                 <ul className="pb-4 pl-6 list-disc list-inside">
                     <li><a href="#myrole">My role</a></li>
                     <li><a href="#tools">Tools</a></li>
-                    <li><a href="#problem">Colors, texts and</a></li>
+                    <li><a href="#problem">Color and text</a></li>
                     <li><a href="#persona">User Persona</a></li>
                     <li><a href="#journey">User Journey</a></li>
                     <li><a href="#solution">Solution</a></li>

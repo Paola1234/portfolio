@@ -16,7 +16,7 @@ export default function comingsoon() {
                      alt="Title Coming Soon"
                      width={600}
                      height={600}/>
-                <p className="text-center">For now i'm finishing to document it.  Today at 6 pm EST, you will see this amazing UI project. </p>
+                <p className="text-center">For now i'm finishing to document it.  Today at 4 pm EST, you will see this amazing UI project. </p>
                 
         </section>           
     </Layout>       
