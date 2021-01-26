@@ -6,16 +6,15 @@ export default function mindvalley() {
     return (
       <Layout >
         <Head>
-          <title>Mindvalley</title>
+          <title>Media Monks</title>
         </Head>
         <section>          
           <img className="flex justify-around mx-auto img-small" src="/images/mv-logo.png"></img>
-          <h2 className="center-title"> ¿Porque Multiplica?</h2>
+          <h2 className="center-title"> Why MediaMonks?</h2>
         </section>
         <section>
         <div>
-              <h3 className="m-4">¡Hola equipo de Multiplica! </h3> 
-              <p className="m-4"> Razon 1</p> 
+              <h3 className="m-4">Hi MediaMonks Team! </h3> 
                 <video controls="autoplay" width="800" height="600" name="Video Name" src="/images/6PhaseMeditation.mov"></video>
                 
               <p className="m-4">I felt motivated to apply because I've seen how your company culture had help people in your team to be 
