@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout.js'
 import utilStyles from '../styles/utils.module.css'
 
-export default function mindvalley() {
+export default function mediamonks() {
     return (
       <Layout >
         <Head>
@@ -14,9 +14,7 @@ export default function mindvalley() {
         </section>
         <section>
         <div>
-              <h3 className="m-4">Hi MediaMonks Team! </h3> 
-                <video controls="autoplay" width="800" height="600" name="Video Name" src="/images/6PhaseMeditation.mov"></video>
-                
+              <h3 className="m-4">Hi MediaMonks Team! </h3>                 
               <p className="m-4">I felt motivated to apply because I've seen how your company culture had help people in your team to be 
                   their best version in their professional and personal life, and for my next steps I've been investing on
                   me to achieve the same, by buying books and taking courses about personal development and UX design. </p> 
