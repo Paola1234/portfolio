@@ -9,32 +9,34 @@ export default function mediamonks() {
           <title>Media Monks</title>
         </Head>
         <section>          
-          <img className="flex justify-around mx-auto img-small" src="/images/mv-logo.png"></img>
-          <h2 className="center-title"> Why MediaMonks?</h2>
+          <h2 className="center-title"> Why MediaMonks and why me?</h2>
         </section>
         <section>
         <div>
-              <h3 className="m-4">Hi MediaMonks Team! </h3>                 
-              <p className="m-4">I felt motivated to apply because I've seen how your company culture had help people in your team to be 
-                  their best version in their professional and personal life, and for my next steps I've been investing on
-                  me to achieve the same, by buying books and taking courses about personal development and UX design. </p> 
+              <h3 className="mt-4">Hi MediaMonks Team! </h3>                 
+              <p className="mt-6 mb-4">I felt motivated to apply because my current plan is to find a job 
+              where I can stay at least 2 years and learn from Jedi-level designers so I can also improve in my design skills 
+              and become an amazing designer. </p> 
 
-              <p className="m-4">I know I can be a good asset for your team because these main reasons: </p>
+              <img src="https://media.giphy.com/media/l1KsEwrdJ9gzewJ9u/giphy.gif" alt=""></img>
+
+              <p className="my-4">In my experience in the NGO, I worked with people from different time-zones and different 
+                nationalities which helped me to learn how to work and interact with  other cultures and personalities. </p>
+
+              <p className="mt-4">I know I ca: </p>
               <ul className="list-disc list-inside">
-                <li> In my thesis I did a deep research about personal development platforms and I learned a lot from yours and others from the market 
-                  which helped me to understand the reality of the market.</li>
-                <li> I combine both of my strengths developer and designer.</li>
-                <li> I'm really good as a multitasker.</li>
-              </ul>
-              <p className="m-4"> I have a challenging mission where I want to create a startup/agency (that's why my domain is platino.digital), where I
-              can help people with dreams, low initial resources and have a lack of knowledge on tech, to create their web pages so they can have a digital 
-              businesses. At the same time I would like to have an internal project related with mental and physical health which will help the users to have 
-              a better lifestyle. And that's how mindvalley is related with my mission in life, because I know that with your team I can practice the skills I 
-              need for starting my agency. </p>
-               <p className="m-4"> I know the impact that your platform can do and I want to be part of your "J.A.R.V.I.S" for personal 
-                   development project through being a junior web designer because it's aligned with my passion and my mission 
-                   in life to improve people's life through tech and I know I can do it with my design and developer abilities. </p>
-              <p className="m-4">I really hope to hear from you soon. Thanks for reading</p>
+                <li> Open to feedback because I know that makes me improve my design skills.</li>
+                <li> Always trying to go further from what I’m being asked to do.</li>
+                <li> Constant learner ready to take any challenge.</li>
+                <li> Interpersonal skills.</li>
+                <li> Constantly learning and always ready to take any challenge.</li>
+                <li> My daily tools are Figma, Sketch and Adobe XD, I understand the basic UI patterns. </li>
+                <li> For me it’s important that every design I do makes the user's life easier.</li>
+             </ul>
+
+               <p className="mt-4"> I know the impact that your agency has done and I know that I can create amazing things by being junior UI designer 
+                   because it's aligned with my passion and my mission in life to improve people's life through tech; I know I can do it with my design and developer abilities. </p>
+              <p className="mt-4">I really hope to hear from you soon. Thanks for reading</p>
           </div>
         </section>
       </Layout>
