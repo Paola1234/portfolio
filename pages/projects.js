@@ -26,6 +26,22 @@ export default function projects() {
           <img className="center img-small center-img" src="/images/projectsImage/cardsStori.svg" alt=""/>
         </div>
       </section>
+      
+      <section>
+        <div className="mb-12 rounded-md bg-grey-back">
+        <h2 className="pt-10 text-xl text-center text-black">B2B Dashboard</h2>
+          <p className="text-center text-black">SaaS Software for charter companies</p>
+          <div className="flex flex-wrap justify-around px-16 mt-4">
+            <a href="/projects/dashboardb2b#problem"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Problem</button></a>
+            <a href="/projects/dashboardb2b#userstory"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">User Stories</button></a>
+            <a href="/projects/dashboardb2b#prototype"><button className="px-2 py-1 font-semibold text-black transform bg-transparent border border-black rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Prototype</button></a>
+          </div>
+            <p className="mt-4 italic text-center text-black">Usability</p>
+            <p className="mb-4 italic text-center text-black">UX Research</p>
+            <img className="flex justify-around pb-10 img-small center-img" src="/images/MockupDashboard.png" alt=""/>
+        </div>
+      </section>
+
       <section>
         <div className="rounded-md estereobckg">
           <img className="flex justify-around img-small center-img" src="/icons/projectlogos/estereo.png" alt=""/>
@@ -45,20 +61,7 @@ export default function projects() {
           <img className="center img-small center-img" src="/images/projectsImage/estereoMockup.png" alt=""/>
         </div>
       </section>
-      <section>
-        <div className="mb-12 rounded-md bg-grey-back">
-        <h2 className="pt-10 text-xl text-center text-black">B2B Dashboard</h2>
-          <p className="text-center text-black">SaaS Software for charter companies</p>
-          <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/projects/dashboardb2b#problem"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Problem</button></a>
-            <a href="/projects/dashboardb2b#userstory"><button className="px-2 py-1 mb-2 font-semibold text-black transform bg-transparent border border-black rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">User Stories</button></a>
-            <a href="/projects/dashboardb2b#prototype"><button className="px-2 py-1 font-semibold text-black transform bg-transparent border border-black rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Prototype</button></a>
-          </div>
-            <p className="mt-4 italic text-center text-black">Usability</p>
-            <p className="mb-4 italic text-center text-black">UX Research</p>
-            <img className="flex justify-around pb-10 img-small center-img" src="/images/MockupDashboard.png" alt=""/>
-        </div>
-      </section>
+      
       <section>
         <div className="mb-12 rounded-md bg-my-purple">
         <h2 className="pt-10 text-xl text-center text-white">Design System</h2>

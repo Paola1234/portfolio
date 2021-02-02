@@ -33,6 +33,8 @@ export default function estereo() {
                 </ul>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+            
             <section id="myrole">
                 <h2 className="mt-8 text-3xl font-bold text-black">My role</h2>
                     <ul className="pb-4 pl-6 list-disc list-inside">
@@ -53,6 +55,8 @@ export default function estereo() {
                     </ul>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+            
              <section id="problem" >
                 <h3 className="mt-8 text-3xl font-bold text-black">Main problem</h3>
                 <p className="mt-4 mb-4"> The Estereo Picnic Festival (Festival Estéreo Picnic in Spanish) is a festival created in Bogota in 2010, which usually happens in the last weeks of March or the beginning of April. In the first edition, they had 2800 
@@ -62,6 +66,8 @@ export default function estereo() {
                 <p className="mt-4 italic">In this article, I will show you how I designed a possible solution to help the festival organizers to motivate the people that already have the tickets, so they can experience the privileges of having it and help them to give their users a similar festival experience from their 
                 houses. I will know this project is a success if more or less of the 50% of the users that purchased the tickets attend to the online event, also I will know that it’s a success if this helps to promote the purchase of more tickets for the event in December.</p>
              </section>
+
+             <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
              <section id="persona">
                 <h3 className="mt-8 text-3xl font-bold text-black">Our User Persona</h3>
@@ -76,6 +82,7 @@ export default function estereo() {
                 alt="Common User Journey in the festival"/>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
             <section id="solution">
                 <h3 className="text-3xl font-bold text-black">Solution</h3>
                 <p className="mb-4">Based on the results and the user persona, I decided to create a responsive web page for the special online event and after that, another web page will be available after that event until December. After doing a brainstorm of all the possible features that can help the user to have a similar experience online, I used the Moscow Diagram that helped me to choose the “must-have” and the “should have” features on both web pages.</p>
@@ -99,6 +106,8 @@ export default function estereo() {
                 </ol>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="design">
                 <h3 className="mt-8 text-3xl font-bold text-black">Design</h3>
                 <p className="mb-4">Before starting to do the prototype I decided to create a moodboard that gathers all the feelings, colors, and visual guidelines used in the previous editions. If you want to check better the UI, you can access the article in <a className="font-bold" href="https://www.behance.net/gallery/97974401/Responsive-web-page-for-online-event-in-COVID-19-times">Behance</a></p>
@@ -112,6 +121,8 @@ export default function estereo() {
                 <img src="https://cdn-images-1.medium.com/max/5396/1*acFoQkZ_lgo-1xWHFO7d4w.png"
                 alt="Style tile after the online event web page."/>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="wireframes">
                 <h3 className="mt-8 text-3xl font-bold text-black">Prototype</h3>
@@ -153,6 +164,8 @@ export default function estereo() {
                 <p>Access to the live prototype:<a className="font-bold" href="#"> Phone version</a>  for the website used for during the main event.</p>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="nextsteps">
             <h3 className="mt-8 text-3xl font-bold text-black">Next Steps</h3>
                 <ul className="pb-4 pl-6 list-disc list-inside">
@@ -160,6 +173,8 @@ export default function estereo() {
                     <li>Create an option/service where restaurants or sponsors can promote their brand so people can see their products.</li>
                 </ul>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="conclusion">
             <h3 className="mt-8 text-3xl font-bold text-black">Learnings through the process</h3>
@@ -170,6 +185,7 @@ export default function estereo() {
                 </ul>
                 <p className="italic">If you want to create awesome things with tech and know about my projects contact me through <a className="font-bold" href="https://www.linkedin.com/in/paola-latino/">LinkedIn</a></p>
             </section>
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
         </section>           
     </Layout>       
     )

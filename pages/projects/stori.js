@@ -40,6 +40,8 @@ export default function aboutme() {
                 </ul>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="myrole-stori">
                 <h2 className="mt-8 text-3xl font-bold text-black">My role</h2>
                     <ul className="pb-4 pl-6 list-disc list-inside">
@@ -58,11 +60,15 @@ export default function aboutme() {
                     </ul>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section >
                 <h3 className="mt-8 text-3xl font-bold text-black">Process</h3>
                 <img className="rounded-md" src="https://cdn-images-1.medium.com/max/3496/1*eiFVzHbWVno-6dDnRUmjaA.png" 
                 alt="This was the process during the 2 weeks"/>
              </section>
+
+             <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
              <section id="whatisstori" >
                 <h3 className="mt-8 text-3xl font-bold text-black">What is Stori?</h3>
@@ -78,6 +84,8 @@ export default function aboutme() {
                 me that data, so I decided to add an option in the survey were people that wanted to be interviewed gave me their email to contact them.</p>
              </section>
 
+             <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
              <section id="insights-stori" >
                 <h3 className="mt-8 text-3xl font-bold text-black">Important insights</h3>
                 <p className="mt-4 mb-4 "><span className="italic">The most common pattern found in people that had debts with the credit card, is that they said that the main cause of that issue 
@@ -92,6 +100,8 @@ export default function aboutme() {
                     alt="Photo by [Mika Baumeister](https://unsplash.com/@mbaumi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash"/>
              </section>
 
+             <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+             
              <section id="problem-stori">
                 <h3 className="mt-4 text-3xl font-bold text-black">Main problem</h3>
                 <p className="mb-4 ">Based on these results, I asked how might we help the user to…</p>
@@ -105,11 +115,15 @@ export default function aboutme() {
                 gets longer and the percentage of users retiring from the card gets lesser.</span></p>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+            
             <section id="user_stori">
                 <h3 className="mt-4 text-3xl font-bold text-black">Our User</h3>
                 <img className="rounded-md" src="https://cdn-images-1.medium.com/max/6400/1*oSUvYkeNKyEa9pQbPAWoNw.png"
                     alt="User Persona Stori"/>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="solution-stori">
                 <h3 className="mt-4 text-3xl font-bold text-black">What’s the solution for Josefina?</h3>
@@ -128,7 +142,7 @@ export default function aboutme() {
                 <img className="mt-6 rounded-md" src="https://cdn-images-1.medium.com/max/4864/0*YiOGVWq2x7vKHUuU.jpg"
                 alt="The image got from Google Design"/>
             </section>
-
+            
             <section id="stage1">
                 <h3 className="mt-6 text-2xl font-bold text-black">1. Stage 1 — Bronce:</h3>
                 <ol className="pl-6">
@@ -163,6 +177,8 @@ export default function aboutme() {
                 </ol>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+            
             <section id="stage2">
                 <h3 className="mt-4 text-2xl font-bold text-black">2. Stage 2 — Silver:</h3>
                 <img className="flex-wrap items-center mx-auto mt-4 mb-4" src="/images/cards/TarjetaDeCreditoPlata.svg"></img>
@@ -200,6 +216,8 @@ export default function aboutme() {
                     </ul>
                 </ol>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="stage3">
                 <h3 className="mt-4 text-2xl font-bold text-black">3. Stage 3 — Gold:</h3>
@@ -242,6 +260,8 @@ export default function aboutme() {
                 </ol>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+            
             <section id="wireframes-stori">
                 <h3 className="mt-8 text-2xl font-bold text-black">Wireframes:</h3>
                 <p>To begin with the wireframe process, I did these sketches that also helped me to do the user flow that my user would have to do only for watching the points and the current status in the level.</p>
@@ -268,7 +288,9 @@ export default function aboutme() {
                 <img src="https://cdn-images-1.medium.com/max/2000/1*4UVGS8JVpSI59C7awyOv6w.gif"></img>    
                 <p className="text-center">Check the <a href="Check the [interactive prototype here](https://paolalatino902732.invisionapp.com/public/share/QH1DF2IO82#screens/479841653)">interactive prototype here.</a></p>
             </section>
-            
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="next-stori">
                 <h3 className="mt-10 text-3xl font-bold text-black">Next Steps</h3>
                 <p className="mb-4">These are some features that I recommend the app should have so this whole experience of the rewards can be the best:</p>
@@ -280,6 +302,7 @@ export default function aboutme() {
                      <li>A thermometer to show people how much their score in the bureau is improving or not with the user's financial behavior.</li>
                 </ol>
              </section>
+             <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
              <h3 id="conclusions-stori" className="mt-8 text-3xl font-bold text-black">Conclusion</h3>
                 <p className="mb-4">In the end, because of the time, I couldn’t test all the missions created with real users, but I know that it would have been good to understand if those missions really create a good financial 
                 habit and if these missions would help to motivate users to stay longer with the card.</p>

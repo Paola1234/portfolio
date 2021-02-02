@@ -34,6 +34,8 @@ export default function backpackers() {
                 </ul>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="myrole">
                 <h2 className="mt-16 text-3xl font-bold text-black">My role</h2>
                     <ul className="pb-4 pl-6 mt-2 list-disc list-inside">
@@ -51,10 +53,14 @@ export default function backpackers() {
                     </ul>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
              <section id="process" >
                 <h3 className="mt-16 text-3xl font-bold text-black">Design Process</h3>
                 <img className="mt-4" src="https://cdn-images-1.medium.com/max/8896/1*0rq9Seg7V8DiIfiQvPpHmQ.png" alt="Design Process Backpackers"/>
              </section>
+
+             <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="perception">
                 <h3 className="mt-20 mb-4 text-3xl font-bold text-black">What is the first thing that comes to a South American mind when they think about Southeast Asia?</h3>
@@ -67,6 +73,8 @@ export default function backpackers() {
                 <p className="mb-4">But for the people in southeast Asia, their food is part of their culture and has influences from other Asian countries like China or India, that’s why their food is a must-try</p>
                 <p className="mb-4">The people that already did backpacking through the region, say that they didn’t have any issues in the tourist places with the language unless they go to places where there are old people or not too much tourism.</p>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="stats">
                 <h3 className="mt-16 text-3xl font-bold text-black">English Proficiency Stats of the region</h3>
@@ -88,6 +96,8 @@ export default function backpackers() {
                 </ol>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="problem">
             <h3 className="mt-16 text-3xl font-bold text-black">Problem</h3>
                 <p className="my-4">After all the interviews we found that the main issue is that the Latin American Backpackers want to travel to the region because they think is a paradise but at the same time, they wouldn’t try the food because of the stereotypes created towards it, so the main objective of this problem is to motivate these users to visit the region and they can order the dishes they want using the local language so they can experience better the local culture.</p>
@@ -101,11 +111,15 @@ export default function backpackers() {
                 <img src="https://cdn-images-1.medium.com/max/3712/1*CHoJqkSyp_zjHdZWQbRtPw.png" alt="Benchmark of some the possible competitors in the region"/>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="persona">
                 <h3 className="mt-16 text-3xl font-bold text-black">Our User Persona</h3>
                 <img src="https://cdn-images-1.medium.com/max/6400/1*UhCzcIbpVxMndErI2z9KuQ.png"
                 alt="Based on the research this is my user persona, her name is Natalia."/>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="journey">
                 <h3 className="mt-16 text-3xl font-bold text-black">Her Journey</h3>
@@ -116,6 +130,8 @@ export default function backpackers() {
                 <img src="https://cdn-images-1.medium.com/max/2048/1*C536PgYmwh533GFgD62FPA.png"
                 alt="This is the expected user journey when she does the backpacking using the app"/>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
 
             <section id="wireframes">
                 <h3 className="mt-8 text-3xl font-bold text-black">Prototype</h3>
@@ -137,6 +153,8 @@ export default function backpackers() {
                 alt="You can also check the prototype in [Invision]https://bit.ly/36BvXqa"/>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="nextsteps">
             <h3 className="mt-8 text-3xl font-bold text-black">Next Steps</h3>
                 <ol className="pb-4 pl-6 list-decimal">
@@ -148,6 +166,8 @@ export default function backpackers() {
                 </ol>
             </section>
 
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
+
             <section id="conclusion">
             <h3 className="mt-8 text-3xl font-bold text-black">Learnings through the process</h3>
             <ul className="pb-4 pl-6 list-disc">
@@ -157,6 +177,8 @@ export default function backpackers() {
             </ul>
             <p className="italic">If you want to create awesome things with tech and know about my projects contact me through <a className="font-bold" href="https://www.linkedin.com/in/paola-latino/">LinkedIn</a></p>
             </section>
+
+            <p className="mt-8 text-xl font-bold text-center">·  ·  ·</p>
         </section>           
     </Layout>       
     )
