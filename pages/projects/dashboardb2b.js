@@ -123,8 +123,8 @@ export default function dashboardb2b() {
 
             <section id="prototype">
                 <h3 className="mt-8 text-3xl font-bold text-black">Final Prototype</h3>
-                <p>Check the <a className="font-bold" src="https://designflapz283427.invisionapp.com/console/share/351I0VXCKG/480485697">prototype here</a></p>
-                <a src="https://designflapz283427.invisionapp.com/console/share/351I0VXCKG/480485697">
+                <p>Check the <a className="font-bold" href="https://designflapz283427.invisionapp.com/console/share/351I0VXCKG/480485697">prototype here</a></p>
+                <a href="https://designflapz283427.invisionapp.com/console/share/351I0VXCKG/480485697">
                 <img className="my-4 transform rounded-md shadow-md hover:scale-105" src="/images/login.jpeg"
                 alt="Link Prototype Dashboard"/>
                 </a>
