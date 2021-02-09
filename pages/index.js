@@ -11,7 +11,8 @@ export default function index() {
       </Head>
       <div className="pr-8 mt-8 row">
             <div className="auto-cols-auto">
-            <h1 className="mb-4 text-5xl leading-10">Paola Latino Tovar</h1>
+            <h1 className="mb-4 text-5xl leading-10 tracking-in-expand-fwd">Paola Latino</h1>
+            <h1 className="mb-4 text-5xl leading-10 tracking-in-expand-fwd">Tovar</h1>
             <p className="mb-4 fade-in">Computer engineer and Designer. Passionate for Tech + Design. </p>
             <p className="mt-4 mb-6 fade-in">Completely passionate for improving people's experience in 
                 tech through my ideas with UX/UI design.</p>
