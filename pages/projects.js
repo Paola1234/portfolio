@@ -13,7 +13,7 @@ export default function projects() {
         <h2 className="mb-8 center-title"> My projects</h2>
       </section>
       <section>
-        <div className="py-16 rounded-md storibckg" >
+        <div className="py-16 rounded-md storibckg fade-in" >
           <img className="flex img-small center-img" src="/icons/projectlogos/stori.png" alt=""/>
           <h2 className="mt-4 white-center-text">Gamification and rewards using a credit card</h2>
           <div className="flex flex-wrap justify-around px-16 mt-4">
@@ -28,7 +28,7 @@ export default function projects() {
       </section>
       
       <section>
-        <div className="mb-12 rounded-md bg-grey-back">
+        <div className="mb-12 rounded-md bg-grey-back fade-in">
         <h2 className="pt-10 text-xl text-center text-black">B2B Dashboard</h2>
           <p className="text-center text-black">SaaS Software for charter companies</p>
           <div className="flex flex-wrap justify-around px-16 mt-4">
@@ -43,7 +43,7 @@ export default function projects() {
       </section>
 
       <section>
-        <div className="rounded-md estereobckg">
+        <div className="rounded-md estereobckg fade-in">
           <img className="flex justify-around img-small center-img" src="/icons/projectlogos/estereo.png" alt=""/>
           <h2 className="mt-4 white-center-text ">A new Festival experience during COVID-19 times</h2>
           <div className="flex flex-wrap justify-around px-16 mt-4">
@@ -63,13 +63,13 @@ export default function projects() {
       </section>
       
       <section>
-        <div className="mb-12 rounded-md bg-my-purple">
+        <div className="mb-12 rounded-md bg-my-purple fade-in">
         <h2 className="pt-10 text-xl text-center text-white">Design System</h2>
           <p className="text-center text-white">Flapz Design system</p>
           <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/projects/comingsoon"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Structure</button></a>
-            <a href="/projects/comingsoon"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Values</button></a>
-            <a href="/projects/comingsoon"><button className="px-2 py-1 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Prototype</button></a>
+            <a href="/projects/designSystem#summary"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Summary</button></a>
+            <a href="/projects/designSystem#"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Values</button></a>
+            <a href="/projects/designSystem#"><button className="px-2 py-1 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Components</button></a>
           </div>
             <p className="mt-4 italic text-center text-white">UI Design</p>
             <p className="mb-4 italic text-center text-white">Development</p>
@@ -77,7 +77,7 @@ export default function projects() {
         </div>
       </section>
       <section>
-        <div className="mb-12 bg-gray-400 rounded-md">
+        <div className="mb-12 bg-gray-400 rounded-md fade-in">
         <h2 className="pt-10 text-xl text-center text-black">Foodie experience</h2>
           <p className="text-center text-black">for latin american backpackers in Southeast Asia</p>
           <div className="flex flex-wrap justify-around px-16 mt-4">

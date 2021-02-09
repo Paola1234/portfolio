@@ -93,6 +93,5 @@ export default function headerIndex() {
   </div>
 </div>
 
-
     )
 }
