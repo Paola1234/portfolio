@@ -34,7 +34,7 @@ export default function index() {
             <img className="center fade-in" src="/images/profile.jpg" alt=""/>
             </div>
         </div>
-        <div className="flex-wrap rowMedia">
+        <div className="flex-wrap mt-4 rowMedia">
             <a href="https://www.behance.net/paola-latino" ><img className="mediaIcons slide-in-bottom-subtitle" src="/icons/socialMedia/behance.svg" alt="behancePlatino"/></a>
             <a href="https://www.linkedin.com/in/paola-latino/"><img className="mediaIcons slide-in-bottom-subtitle"src="/icons/socialMedia/linkedin.svg" alt="Linkedin"/></a>  
             <a href="https://medium.com/@paolalat188"><img className="mediaIcons slide-in-bottom-subtitle"src="/icons/socialMedia/medium.svg" alt=""/></a> 
