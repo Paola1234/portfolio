@@ -27,6 +27,20 @@ h1,h2,h3{
   font-weight: 700;
 }
 
+.text-gradient{
+  background: rgb(147,134,255);
+  background: linear-gradient(180deg, rgba(147,134,255,1) 0%, rgba(68,59,150,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gradient{
+  background: rgb(147,134,255);
+  background: linear-gradient(180deg, rgba(147,134,255,1) 0%, rgba(68,59,150,1) 100%);
+}
+
+
+
 .span{
   font-family: "Open Sans";
   font-weight: 300;
@@ -37,7 +51,10 @@ h1,h2,h3{
 .center-title{
   text-align: center;
   font-size: 32pt;
-  color: #443B96;
+  background: rgb(147,134,255);
+  background: linear-gradient(180deg, rgba(147,134,255,1) 0%, rgba(68,59,150,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 html,
@@ -181,7 +198,10 @@ img {
 }
 
 .purple-bold-text{
-  color: #443B96;
+  background: rgb(147,134,255);
+  background: linear-gradient(180deg, rgba(147,134,255,1) 0%, rgba(68,59,150,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
 
