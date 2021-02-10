@@ -11,8 +11,8 @@ export default function aboutme() {
         <title>About me</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <h2 className="center-title"> About Me </h2>
-        <p className="mb-4 text-center">Let me tell you a few facts about me</p>
+        <h2 className="mt-8 center-title fade-in"> About Me </h2>
+        <p className="mb-8 text-center fade-in">Let me tell you a few facts about me</p>
         <p className="mb-4">
         I’m a computer engineer (by night) and designer (by day) whose love for tech and creativity who questions everyday “How can I make people’s life easier?”
         </p>
@@ -22,7 +22,7 @@ export default function aboutme() {
         </p>
         <div className="row">
             <div className="column_equal">
-                <h3 className="text-xl purple-bold-text">Hard Skills</h3>
+                <h3 className="mb-2 text-xl purple-bold-text">Hard Skills</h3>
                 <ul className="list-disc list-inside">
                     <li>Adobe XD</li>
                     <li>Adobe Illustrator</li>
@@ -42,7 +42,7 @@ export default function aboutme() {
                 </ul>
             </div>
             <div className="column_equal">
-            <h3 className="text-xl purple-bold-text">Soft Skills</h3>
+            <h3 className="mb-2 text-xl purple-bold-text">Soft Skills</h3>
                 <ul className="list-disc list-inside">
                     <li>Analytic</li>
                     <li>Always learning</li>

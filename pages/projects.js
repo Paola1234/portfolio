@@ -10,7 +10,7 @@ export default function projects() {
         <title>My projects</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <h2 className="mb-8 center-title"> My projects</h2>
+        <h2 className="my-8 center-title"> My projects</h2>
       </section>
       <section>
         <div className="py-16 rounded-md storibckg fade-in" >
