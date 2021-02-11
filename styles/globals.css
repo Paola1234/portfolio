@@ -39,13 +39,15 @@ h1,h2,h3{
   background: linear-gradient(180deg, rgba(147,134,255,1) 0%, rgba(68,59,150,1) 100%);
 }
 
-
-
 .span{
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 14pt;
   text-align: center;
+}
+
+.bg-imgIndex{
+  background-image:url('/images/bg-index.svg');
 }
 
 .center-title{
@@ -146,7 +148,7 @@ img {
 }
 
 .img-medium {
-  max-width: 70%;
+  max-width: 80%;
 }
 
 .button {
@@ -243,6 +245,9 @@ img {
 
 
 @media screen and (max-width: 600px) {
+  .bg-imgIndex{
+    background:white;
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
