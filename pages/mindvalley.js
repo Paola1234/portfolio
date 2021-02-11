@@ -44,9 +44,8 @@ export default function mindvalley() {
               can help people with big dreams, low initial resources and have a lack of knowledge on tech, to create their web pages so they can have a digital 
               businesses -> </p>
               
-              <p className="mt-2 italic">Right now, <span className="font-bold">I'm doing freelance</span> for a startup that wants to create an insurance web page more accesible for users who don't have any 
-              experience with the product but it can be useful in cases such as having a rented apartment and the people living there might get broke because 
-              of COVID so the insurance can help them to pay the rent while they find a job. </p>
+              <p className="mt-2 italic">Right now, <span className="font-bold">I'm doing freelance</span> and I'm helping on all the web design process for a startup that wants to promote the colombian coffee
+              that is gonna be sold directly from the farms, also the startup wants thank the buyer through showing how their coffee was done in the respective farm and how their payment helps them. </p>
 
               <p className="mt-10">At the same time, I would love to have a <span className="font-bold">project/side business related with mental or physical health </span> 
               which will help the users to have a better lifestyle. And that's how mindvalley is related with my mission in life, because I know that with your team I can 

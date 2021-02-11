@@ -6,31 +6,29 @@ export default function estereo() {
     return (
         <Layout>
         <Head>
-            <title>Estereo Picnic Project</title>
+            <title>Flapz Design System</title>
         </Head>
         <section className={utilStyles.headingMd}>
                 <h1 className="text-4xl text-black"> Flapz Design System</h1>
                 <h3 className="text-m">A standard created to design faster and have better communication with the developers</h3>
                 <p className="text-sm italic text-light">UI Design</p>
                 <p className="mb-4 text-sm italic text-light">Figma</p>
-                <img className="rounded-md" src="https://cdn-images-1.medium.com/max/5696/1*bxbiPdfbIQ5fU5BtfydciA.png"
-                alt="TitleDesignSystem"/>
 
             <section id="summary">
                 <h3 className="mt-8 text-3xl font-bold text-black">Summary</h3>
                 <ul className="pb-4 pl-6 list-disc list-inside">
                     <li><a href="#myrole">My role</a></li>
                     <li><a href="#tools">Tools</a></li>
-                    <li><a href="#color">Color Palette</a></li>
+                    <li><a href="#structure">Structure</a></li>
                 </ul>
             </section>
 
             <section id="myrole">
                 <h2 className="mt-8 text-3xl font-bold text-black">My role</h2>
                     <ul className="pb-4 pl-6 list-disc list-inside">
-                        <li>UX Researcher/UI Designer.</li>
-                        <li>Freelancer and fan of the festival.</li>
-                        <li><span className="font-bold">Duration: </span>1 week</li>
+                        <li>Head of design - Product Designer.</li>
+                        <li>Front-end Developer.</li>
+                        <li><span className="font-bold">Duration: </span>1 month</li>
                     </ul>
             </section>
 
@@ -38,21 +36,17 @@ export default function estereo() {
                 <h3 className="mt-8 text-3xl font-bold text-black">Tools</h3>
                     <ul className="pb-4 pl-6 list-disc list-inside">
                         <li><span className="font-bold">Milanote: </span>Moodboard.</li>
-                        <li><span className="font-bold">Adobe Photoshop: </span>Pixel art.</li>
+                        <li><span className="font-bold">Figma: </span>Design System Compilation.</li>
                         <li><span className="font-bold">Code reference: </span>Tailwind CSS.</li>
                     </ul>
             </section>
 
 
-            <section id="hifi">
-                <h3 className="mt-8 text-3xl font-bold text-black">Hi-Fi</h3>
-                <p>This is the final prototype of the <span className="italic font-bold">main online event </span>in the computer version, if you want to check better the UI, you can access the article in <a className="font-bold" href="https://www.behance.net/gallery/97974401/Responsive-web-page-for-online-event-in-COVID-19-times">Behance</a></p> 
+            <section id="structure">
+                <h3 className="mt-8 text-3xl font-bold text-black">Structure</h3>
+                <p>This is the final </p> 
                <img className="-pt-4" src="https://cdn-images-1.medium.com/max/2000/1*sbk4mUhwS7z_NDm8yxO_xQ.gif"
                 alt="This is the desktop version of the online event web page."/>
-                <p>Access to the live prototype:<a className="font-bold" href="#"> Phone version</a>  for the website used for during the main event.</p>
-               <p className="mt-4">And this is the complete final version of the web page that will be used <span className="italic font-bold">after the online event</span> until the event in December:</p>
-               <img className="" src="https://cdn-images-1.medium.com/max/2000/1*zFk0j1MGdWuxZSUATtDKsA.gif"
-                alt="This is the “after-web page” in the Hi-Fi prototype for the tablet."/>
                 <p>Access to the live prototype:<a className="font-bold" href="#"> Phone version</a>  for the website used for during the main event.</p>
             </section>
 
