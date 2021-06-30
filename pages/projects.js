@@ -12,6 +12,7 @@ export default function projects() {
       <section className={utilStyles.headingMd}>
         <h2 className="my-8 center-title fade-in"> My projects</h2>
       </section>
+      
       <section>
         <div className="py-16 rounded-md storibckg fade-in" >
           <img className="flex img-small center-img" src="/icons/projectlogos/stori.png" alt=""/>
@@ -61,21 +62,7 @@ export default function projects() {
           <img className="center img-small center-img" src="/images/projectsImage/estereoMockup.png" alt=""/>
         </div>
       </section>
-      
-      <section>
-        <div className="mb-12 rounded-md bg-my-purple fade-in">
-        <h2 className="pt-10 text-xl text-center text-white">Design System</h2>
-          <p className="text-center text-white">Flapz Design system</p>
-          <div className="flex flex-wrap justify-around px-16 mt-4">
-            <a href="/projects/designSystem#summary"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Summary</button></a>
-            <a href="/projects/designSystem#"><button className="px-2 py-1 mb-2 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Values</button></a>
-            <a href="/projects/designSystem#"><button className="px-2 py-1 font-semibold text-white transform bg-transparent border border-white rounded cursor-pointer hover:scale-105 hover:bg-white-500 hover:text-white hover:border-white">Components</button></a>
-          </div>
-            <p className="mt-4 italic text-center text-white">UI Design</p>
-            <p className="mb-4 italic text-center text-white">Development</p>
-            <img className="flex justify-around pb-10 img-small center-img" src="/images/MockupDashboard.png" alt=""/>
-        </div>
-      </section>
+
       <section>
         <div className="mb-12 bg-gray-400 rounded-md fade-in">
         <h2 className="pt-10 text-xl text-center text-black">Foodie experience</h2>
